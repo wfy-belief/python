@@ -1,3 +1,7 @@
+* **总结归纳能力**
+
+  - [python](</python/main>)
+
 * **数据获取能力**
   
   - [urllib](</urllib/main>)
