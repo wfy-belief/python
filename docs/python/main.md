@@ -85,3 +85,38 @@ if queue:
 print(queue)
 ```
 
+## 高级排序
+
+<iframe 
+src="//player.bilibili.com/player.html?aid=838821380&bvid=BV1Kg4y1i737&cid=210224189&page=3&as_wide=1&high_quality=1&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="640" height="430" > </iframe>
+
+```python
+# python 高级排序
+# 1.[]
+# 2.[(a, b), (a, b)]
+# 3.[{'key1':value1, 'key2':'value2'}, {'key1':value1, 'key2':'value2'}]
+# 4.{"key":[]} [(int, [xxx], {}), (int, [xxx], {})]
+l = [5, 2, 1, 6, 4, 7, 3]
+# l.sort()
+# print(l)
+l.sort(reverse=True)
+print(l)
+
+a = [(3, 1), (2, 3), (1, 2), (1, 0), (1, 3)]
+# a.sort(reverse=True)
+# print(a)
+# key1 ↑ key2 ↓
+a.sort(key=lambda x: (x[0], -x[1]))
+print(a)
+
+a = [{'key1': 3, 'key2': 1},
+     {'key1': 2, 'key2': 3},
+     {'key1': 1, 'key2': 2},
+     {'key1': 1, 'key2': 0},
+     {'key1': 1, 'key2': 3}]
+
+a.sort(key=lambda x: (x['key1'], -x['key2']))
+print(a)
+
+```
+
