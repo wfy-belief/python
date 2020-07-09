@@ -120,3 +120,82 @@ print(a)
 
 ```
 
+## 原来你是这样的循环
+<iframe 
+src="//player.bilibili.com/player.html?aid=838821380&bvid=BV1Kg4y1i737&cid=210569015&page=4&as_wide=1&high_quality=1&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="640" height="430" > </iframe>
+
+```python
+# for
+# while
+'''
+for i in range(10):
+    print(i)
+
+Left, Right = 6, 10
+for i in range(Left, Right):
+    print(i)
+'''
+'''
+for i in range(10):
+    i += 3
+    print(i)
+'''
+'''
+for i in range(3):
+    print(6)
+
+for _ in range(3):
+    print(6)
+'''
+'''
+value = 3
+flag = 0
+for i in range(10):
+    # 终止条件
+    if i == value:
+        flag = 1
+        break
+
+if flag:
+    xxx
+else:
+    xxx'''
+
+value = 11
+flag = 0
+for i in range(10):
+    # 终止条件
+    if i == value:
+        print("success")
+        break
+else:
+    print("f")
+# su shu 
+for i in range(3, 20):
+    for j in range(2, int(i ** 0.5) + 1):
+        if i % j == 0:
+            print("f")
+            break
+    else:
+        print("it is su shu", i)
+
+# while
+
+while xx:
+    xxx
+
+i = -1
+
+while i < 0:
+    i += 1
+
+while xx:
+
+
+    pass
+else:
+    pass
+
+for obj in OBJ ->: list set turlp dict  .... str
+```
+

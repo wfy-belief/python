@@ -10,6 +10,7 @@
 from urllib import request
 resp = request.urlopen('http://www.baidu.com')
 print(resp.read())
+# http 与 https 得到的结果是不同的
 ```
 
 实际上，使用浏览器访问百度，右键查看源代码。你会发现，跟我们刚才打印出来的数据是一模一样的。也就是说，上面的三行代码就已经帮我们把百度的首页的全部代码爬下来了。一个基本的url请求对应的python代码真的非常简单。
@@ -26,6 +27,7 @@ print(resp.read())
 ```python
 from urllib import request
 request.urlretrieve('http://www.baidu.com/','baidu.html')
+# 还可以下载别的 如 文章 和 json格式的文件
 ```
 
 ### urlencode函数：
