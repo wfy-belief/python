@@ -205,7 +205,6 @@ for obj in OBJ ->: list set turlp dict  .... str
 <iframe 
 src="//player.bilibili.com/player.html?aid=838821380&bvid=BV1Kg4y1i737&cid=210971983&page=5&as_wide=1&high_quality=1&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="640" height="430" > </iframe>
 ```python
-# 
 s = set()
 print(s)
 s = {1, 2, 3, 4, 5}
