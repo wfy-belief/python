@@ -8,7 +8,7 @@
 
 * **小组学习**
   
-  - [MySQL](</group/MySQL>)
+  - [MySQL](<https://wfyblog.cn/notes/#/group/MySQL>)
   
 * **大数据比赛**
   - [大数据技能挑战赛](<https://wfyblog.cn/notes/#/bigdata/0/0>)
