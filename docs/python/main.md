@@ -199,3 +199,87 @@ else:
 for obj in OBJ ->: list set turlp dict  .... str
 ```
 
+## 集合交并补 
+
+<iframe 
+src="//player.bilibili.com/player.html?aid=838821380&bvid=BV1Kg4y1i737&cid=210971983&page=5&as_wide=1&high_quality=1&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="640" height="430" > </iframe>
+```python
+# 
+s = set()
+print(s)
+s = {1, 2, 3, 4, 5}
+print(s)
+# 不重复
+s = {1, 2, 3, 4, 4, 5}
+print(s)
+
+# add value
+s.add(5)
+s.add(6)
+print(s)
+
+# del value
+# 3 in set
+s.remove(3)
+print(s)
+# 7 not in set return key error
+# s.remove(7)
+print(s)
+
+# del 2 
+# 2 in set
+s.discard(2)
+print(s)
+# 7 not in set 
+s.discard(7)
+print(s)
+
+# remove 
+# if value in set:
+#     set.remove
+
+# s.clear
+# s = set()
+# s.clear()
+print(s)
+
+# pop()
+print("s.pop() is ", s.pop())
+
+# set is empty keyerror
+
+
+print('*' * 30)
+
+a = {1, 2, 3, 4}
+b = {2, 3, 4, 5}
+
+
+# 差集
+print(a - b)
+
+# 并集
+print(a | b)
+
+# 交集
+print(a & b)
+
+# 对称差集 出现在a集合或者b集合 但是不会同时出现在a和b集合
+print(a ^ b)
+
+# 子集
+# a <= b a < b a > b a >= b
+if a <= b:
+    print("子集")
+else:
+    print('不是子集')
+
+a = {1, 2, 3}
+b = {1, 2, 3}
+if a < b:
+    print("真子集")
+else:
+    print('不是真子集')
+```
+
+
