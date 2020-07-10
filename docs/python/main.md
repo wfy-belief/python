@@ -204,82 +204,81 @@ for obj in OBJ ->: list set turlp dict  .... str
 
 <iframe 
 src="//player.bilibili.com/player.html?aid=838821380&bvid=BV1Kg4y1i737&cid=210971983&page=5&as_wide=1&high_quality=1&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="640" height="430" > </iframe>
+
+
 ```python
-s = set()
-print(s)
-s = {1, 2, 3, 4, 5}
-print(s)
-# 不重复
-s = {1, 2, 3, 4, 4, 5}
-print(s)
+# for
+# while
+'''
+for i in range(10):
+    print(i)
 
-# add value
-s.add(5)
-s.add(6)
-print(s)
+Left, Right = 6, 10
+for i in range(Left, Right):
+    print(i)
+'''
+'''
+for i in range(10):
+    i += 3
+    print(i)
+'''
+'''
+for i in range(3):
+    print(6)
 
-# del value
-# 3 in set
-s.remove(3)
-print(s)
-# 7 not in set return key error
-# s.remove(7)
-print(s)
+for _ in range(3):
+    print(6)
+'''
+'''
+value = 3
+flag = 0
+for i in range(10):
+    # 终止条件
+    if i == value:
+        flag = 1
+        break
 
-# del 2 
-# 2 in set
-s.discard(2)
-print(s)
-# 7 not in set 
-s.discard(7)
-print(s)
-
-# remove 
-# if value in set:
-#     set.remove
-
-# s.clear
-# s = set()
-# s.clear()
-print(s)
-
-# pop()
-print("s.pop() is ", s.pop())
-
-# set is empty keyerror
-
-
-print('*' * 30)
-
-a = {1, 2, 3, 4}
-b = {2, 3, 4, 5}
-
-
-# 差集
-print(a - b)
-
-# 并集
-print(a | b)
-
-# 交集
-print(a & b)
-
-# 对称差集 出现在a集合或者b集合 但是不会同时出现在a和b集合
-print(a ^ b)
-
-# 子集
-# a <= b a < b a > b a >= b
-if a <= b:
-    print("子集")
+if flag:
+    xxx
 else:
-    print('不是子集')
+    xxx'''
 
-a = {1, 2, 3}
-b = {1, 2, 3}
-if a < b:
-    print("真子集")
+value = 11
+flag = 0
+for i in range(10):
+    # 终止条件
+    if i == value:
+        print("success")
+        break
 else:
-    print('不是真子集')
+    print("f")
+# su shu 
+for i in range(3, 20):
+    for j in range(2, int(i ** 0.5) + 1):
+        if i % j == 0:
+            print("f")
+            break
+    else:
+        print("it is su shu", i)
+
+# while
+
+while xx:
+    xxx
+
+i = -1
+
+while i < 0:
+    i += 1
+
+while xx:
+
+
+    pass
+else:
+    pass
+
+for obj in OBJ ->: list set turlp dict  .... str
 ```
 
 
