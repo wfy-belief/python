@@ -207,78 +207,82 @@ src="//player.bilibili.com/player.html?aid=838821380&bvid=BV1Kg4y1i737&cid=21097
 
 
 ```python
-# for
-# while
-'''
-for i in range(10):
-    print(i)
+s = set()
+print(s)
+s = {1, 2, 3, 4, 5}
+print(s)
+# 不重复
+s = {1, 2, 3, 4, 4, 5}
+print(s)
 
-Left, Right = 6, 10
-for i in range(Left, Right):
-    print(i)
-'''
-'''
-for i in range(10):
-    i += 3
-    print(i)
-'''
-'''
-for i in range(3):
-    print(6)
+# add value
+s.add(5)
+s.add(6)
+print(s)
 
-for _ in range(3):
-    print(6)
-'''
-'''
-value = 3
-flag = 0
-for i in range(10):
-    # 终止条件
-    if i == value:
-        flag = 1
-        break
+# del value
+# 3 in set
+s.remove(3)
+print(s)
+# 7 not in set return key error
+# s.remove(7)
+print(s)
 
-if flag:
-    xxx
+# del 2
+# 2 in set
+s.discard(2)
+print(s)
+# 7 not in set
+s.discard(7)
+print(s)
+
+# remove
+# if value in set:
+#     set.remove
+
+# s.clear
+# s = set()
+# s.clear()
+print(s)
+
+# pop()
+print("s.pop() is ", s.pop())
+
+# set is empty keyerror
+
+
+print('*' * 30)
+
+a = {1, 2, 3, 4}
+b = {2, 3, 4, 5}
+
+
+# 差集
+print(a - b)
+
+# 并集
+print(a | b)
+
+# 交集
+print(a & b)
+
+# 对称差集 出现在a集合或者b集合 但是不会同时出现在a和b集合
+print(a ^ b)
+
+# 子集
+# a <= b a < b a > b a >= b
+if a <= b:
+    print("子集")
 else:
-    xxx'''
+    print('不是子集')
 
-value = 11
-flag = 0
-for i in range(10):
-    # 终止条件
-    if i == value:
-        print("success")
-        break
+a = {1, 2, 3}
+b = {1, 2, 3}
+if a < b:
+    print("真子集")
 else:
-    print("f")
-# su shu 
-for i in range(3, 20):
-    for j in range(2, int(i ** 0.5) + 1):
-        if i % j == 0:
-            print("f")
-            break
-    else:
-        print("it is su shu", i)
+    print('不是真子集')
 
-# while
-
-while xx:
-    xxx
-
-i = -1
-
-while i < 0:
-    i += 1
-
-while xx:
-
-
-    pass
-else:
-    pass
-
-for obj in OBJ ->: list set turlp dict  .... str
 ```
 
 
