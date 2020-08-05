@@ -7,6 +7,7 @@
   - [urllib](</urllib/main>)
   - [requests](</requests/main>)
   - [lxml](</lxml/main>)
+  - [bs4](</bs4/main>)
   
 * **数据处理能力**
   
