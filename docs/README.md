@@ -107,7 +107,7 @@ var emphasisStyle = {
     }
 };
 
-option = {
+{
     backgroundColor: '#eee',
     legend: {
         data: ['bar', 'bar2', 'bar3', 'bar4'],
