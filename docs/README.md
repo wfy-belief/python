@@ -40,7 +40,7 @@ md文档添加如下代码即可
 
 展示
 
-<iframe width="900px" height="500px" src="./grid_multi_yaxis.html"></iframe>
+<iframe width="100%" height="530px" src="./grid_multi_yaxis.html"></iframe>
 
 ## 首页
 
