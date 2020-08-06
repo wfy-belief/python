@@ -35,12 +35,12 @@
 md文档添加如下代码即可
 
 ```
-<iframe width="100%" height="100%" src="./grid_multi_yaxis.html"></iframe>
+<iframe width="900px" height="500px" src="./grid_multi_yaxis.html"></iframe>
 ```
 
 展示
 
-<iframe width="100%" height="100%" src="./grid_multi_yaxis.html"></iframe>
+<iframe width="900px" height="500px" src="./grid_multi_yaxis.html"></iframe>
 
 ## 首页
 
