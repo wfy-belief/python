@@ -1,0 +1,3 @@
+- [Bar3d - Bar3d_punch_card](/pycharts/Bar3D/bar3d_punch_card.md 'include :type=code')
+- [Bar3d - Bar3d_base](/pycharts/Bar3D/bar3d_base.md 'include :type=code')
+- [Bar3d - Bar3d_stack](/pycharts/Bar3D/bar3d_stack.md 'include :type=code')
