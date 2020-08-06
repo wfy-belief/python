@@ -1,14 +1,9 @@
 <h1 align="center">pyecharts-gallery</h1>
 
----
-
-* [英文文档在这 - English Introduction is Here](/pycharts/README_EN.md)
-
----
 
 ## 前言
 
-**<font color=red>fork官方的文档并加以修改和完善</font>**
+**<font color=red>基于官方说明和文档进行二次开发和重新部署，并进行维护和修复错误，同时记录自己使用时候的思考，如有不足之处请见谅</font>**
 
 ## 项目简介
 
