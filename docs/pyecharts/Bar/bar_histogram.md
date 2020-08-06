@@ -16,4 +16,4 @@ c = (
 
 ```
 
-<iframe width="100%" height="800px" src="Bar/bar_histogram.html"></iframe>
+<iframe width="100%" height="800px" src="/pyecharts/Bar/bar_histogram.html"></iframe>

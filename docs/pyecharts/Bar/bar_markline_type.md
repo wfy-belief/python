@@ -26,4 +26,4 @@ c = (
 
 ```
 
-<iframe width="100%" height="800px" src="Bar/bar_markline_type.html"></iframe>
+<iframe width="100%" height="800px" src="/pyecharts/Bar/bar_markline_type.html"></iframe>

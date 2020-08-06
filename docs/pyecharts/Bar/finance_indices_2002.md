@@ -2150,4 +2150,4 @@ timeline.render("finance_indices_2002.html")
 
 ```
 
-<iframe width="100%" height="800px" src="Bar/finance_indices_2002.html"></iframe>
+<iframe width="100%" height="800px" src="/pyecharts/Bar/finance_indices_2002.html"></iframe>

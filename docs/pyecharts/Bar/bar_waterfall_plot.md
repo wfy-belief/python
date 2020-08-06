@@ -27,4 +27,4 @@ bar = (
 )
 ```
 
-<iframe width="100%" height="800px" src="Bar/bar_waterfall_plot.html"></iframe>
+<iframe width="100%" height="800px" src="/pyecharts/Bar/bar_waterfall_plot.html"></iframe>

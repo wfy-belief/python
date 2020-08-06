@@ -33,4 +33,4 @@ c.render("bar_base_with_custom_background_image.html")
 
 ```
 
-<iframe width="100%" height="800px" src="Bar/bar_base_with_custom_background_image.html"></iframe>
+<iframe width="100%" height="800px" src="/pyecharts/Bar/bar_base_with_custom_background_image.html"></iframe>

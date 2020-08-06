@@ -22,4 +22,4 @@ c = (
 
 ```
 
-<iframe width="100%" height="800px" src="Bar/bar_xyaxis_name.html"></iframe>
+<iframe width="100%" height="800px" src="/pyecharts/Bar/bar_xyaxis_name.html"></iframe>

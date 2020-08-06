@@ -245,4 +245,4 @@ blue_bar = [
 
 ```
 
-<iframe width="100%" height="800px" src="Bar/bar_chart_display_delay.html"></iframe>
+<iframe width="100%" height="800px" src="/pyecharts/Bar/bar_chart_display_delay.html"></iframe>

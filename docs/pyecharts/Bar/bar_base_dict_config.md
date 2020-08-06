@@ -19,4 +19,4 @@ c = (
 
 ```
 
-<iframe width="100%" height="800px" src="Bar/bar_base_dict_config.html"></iframe>
+<iframe width="100%" height="800px" src="/pyecharts/Bar/bar_base_dict_config.html"></iframe>

@@ -101,4 +101,4 @@ bar.overlap(line).render("mixed_bar_and_line.html")
 
 ```
 
-<iframe width="100%" height="800px" src="Bar/mixed_bar_and_line.html"></iframe>
+<iframe width="100%" height="800px" src="/pyecharts/Bar/mixed_bar_and_line.html"></iframe>
