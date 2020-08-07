@@ -7,7 +7,7 @@ from pyecharts import options as opts
 参考地址: https://gallery.echartsjs.com/editor.html?c=bmap-bus
 """
 
-BAIDU_MAP_AK = "FAKE_AK"
+BAIDU_MAP_AK = "53oVIOgmSIejwV7EfphPgTynOZbIiVYu"
 
 # 读取项目中的 json 文件
 with open("busRoutines.json", "r", encoding="utf-8") as f:

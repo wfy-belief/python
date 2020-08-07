@@ -4,7 +4,7 @@ from pyecharts.faker import Faker
 
 c = (
     BMap()
-    .add_schema(baidu_ak="FAKE_AK", center=[120.13066322374, 30.240018034923])
+    .add_schema(baidu_ak="53oVIOgmSIejwV7EfphPgTynOZbIiVYu", center=[120.13066322374, 30.240018034923])
     .add(
         "bmap",
         [list(z) for z in zip(Faker.provinces, Faker.values())],

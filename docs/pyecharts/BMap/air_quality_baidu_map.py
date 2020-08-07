@@ -398,18 +398,19 @@ def convert_data():
 
 
 (
-    BMap(init_opts=opts.InitOpts(width="1200px", height="800px"))
+    BMap(init_opts=opts.InitOpts(width="1400px", height="800px"))
     .add(
         type_="effectScatter",
         series_name="pm2.5",
         data_pair=convert_data(),
         symbol_size=10,
         effect_opts=opts.EffectOpts(),
-        label_opts=opts.LabelOpts(formatter="{b}", position="right", is_show=False),
+        label_opts=opts.LabelOpts(
+            formatter="{b}", position="right", is_show=False),
         itemstyle_opts=opts.ItemStyleOpts(color="purple"),
     )
     .add_schema(
-        baidu_ak="FAKE_AK",
+        baidu_ak="53oVIOgmSIejwV7EfphPgTynOZbIiVYu",
         center=[104.114129, 37.550339],
         zoom=5,
         is_roam=True,

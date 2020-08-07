@@ -1,3 +1,6 @@
+## 百度API接口说明
+
+此部分如出现问题，请自行注册。
 
 ## pyecharts 代码 / 效果
 
@@ -409,11 +412,12 @@ def convert_data():
         data_pair=convert_data(),
         symbol_size=10,
         effect_opts=opts.EffectOpts(),
-        label_opts=opts.LabelOpts(formatter="{b}", position="right", is_show=False),
+        label_opts=opts.LabelOpts(
+            formatter="{b}", position="right", is_show=False),
         itemstyle_opts=opts.ItemStyleOpts(color="purple"),
     )
     .add_schema(
-        baidu_ak="FAKE_AK",
+        baidu_ak="53oVIOgmSIejwV7EfphPgTynOZbIiVYu",
         center=[104.114129, 37.550339],
         zoom=5,
         is_roam=True,
@@ -527,4 +531,8 @@ def convert_data():
 
 ```
 
-<iframe width="100%" height="800px" src="BMap/air_quality_baidu_map.html"></iframe>
+<iframe width="100%" height="800px" src="/pyecharts/BMap/air_quality_baidu_map.html"></iframe>
+
+## 附文档及代码
+
+<a href="https://cdn.jsdelivr.net/gh/wfy-belief/python/docs/pyecharts/BMap/air_quality_baidu_map.py"><button class="mybutton">pyecharts代码下载</button></a><a href="https://cdn.jsdelivr.net/gh/wfy-belief/python/docs/pyecharts/BMap/air_quality_baidu_map.html"><button class="mybutton">HTML源代码</button></a><a href="https://python.wfyblog.cn/pyecharts/BMap/air_quality_baidu_map.html"><button class="mybutton">独立图形演示界面</button></a><a href="https://cdn.jsdelivr.net/gh/wfy-belief/python/docs/pyecharts/BMap/air_quality_baidu_map.md"><button class="mybutton">本页markdown原文档</button></a>

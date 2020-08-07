@@ -11,7 +11,7 @@ color_list = ["#070093", "#1c3fbf", "#1482e5", "#70b4eb", "#b4e0f3", "#ffffff"]
 c = (
     BMap()
     .add_schema(
-        baidu_ak="FAKE_AK",
+        baidu_ak="53oVIOgmSIejwV7EfphPgTynOZbIiVYu",
         center=[116.46, 39.92],
         zoom=11.8,
         is_roam=True,

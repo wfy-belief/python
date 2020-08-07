@@ -1,3 +1,6 @@
+## 百度API接口说明
+
+此部分如出现问题，请自行注册。
 
 ## pyecharts 代码 / 效果
 
@@ -15,7 +18,7 @@ color_list = ["#070093", "#1c3fbf", "#1482e5", "#70b4eb", "#b4e0f3", "#ffffff"]
 c = (
     BMap()
     .add_schema(
-        baidu_ak="FAKE_AK",
+        baidu_ak="53oVIOgmSIejwV7EfphPgTynOZbIiVYu",
         center=[116.46, 39.92],
         zoom=11.8,
         is_roam=True,
@@ -211,4 +214,9 @@ c = (
 
 ```
 
-<iframe width="100%" height="800px" src="BMap/bmap_custom.html"></iframe>
+<iframe width="100%" height="800px" src="/pyecharts/BMap/bmap_custom.html"></iframe>
+
+## 附文档及代码
+
+<a href="https://cdn.jsdelivr.net/gh/wfy-belief/python/docs/pyecharts/BMap/bmap_custom.py"><button class="mybutton">pyecharts代码下载</button></a><a href="https://cdn.jsdelivr.net/gh/wfy-belief/python/docs/pyecharts/BMap/bmap_custom.html"><button class="mybutton">HTML源代码</button></a><a href="https://python.wfyblog.cn/pyecharts/BMap/bmap_custom.html"><button class="mybutton">独立图形演示界面</button></a><a href="https://cdn.jsdelivr.net/gh/wfy-belief/python/docs/pyecharts/BMap/bmap_custom.md"><button class="mybutton">本页markdown原文档</button></a><a href="https://cdn.jsdelivr.net/gh/wfy-belief/python/docs/pyecharts/BMap/bmap-custom-data.json"><button class="mybutton">bmap-custom-data.json</button></a>
+
