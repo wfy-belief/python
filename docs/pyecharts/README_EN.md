@@ -4,9 +4,12 @@
 
 ## 前言
 
-- **<font color=#3b9a9c>2020.08.07起，使用[CDN](https://cdn.jsdelivr.net/)提供文档预览和下载，优化速度。</font>**
+- **<font color=#3b9a9c>2020.08.07晚，格式化/美化HTML代码源码，本次不采用HTML压缩，原因是对加载速度影响不大.</font>**
+- **<font color=#3b9a9c>2020.08.07晚，修复`echarts.min.js`没有使用CDN加速的bug，`echarts.min.js`加载速度由`1.6s`降低至`70ms`.</font>**
+- **<font color=#3b9a9c>2020.08.07晚，防止他人私自调用/滥用加载此网站iframe对象（可视化组件），如果非法调用，重定向到本网站对应地址.</font>**
+- **<font color=#3b9a9c>2020.08.07起，使用[CDN](https://cdn.jsdelivr.net/)提供文档预览和下载，优化速度.</font>**
 
-**<font color=red>基于官方说明和文档进行二次开发和重新部署，并进行维护和修复错误，同时记录自己使用时候的思考，如有不足之处请见谅.</font>**
+- **<font color=red>基于官方说明和文档进行二次开发和重新部署，并进行维护和修复错误，同时记录自己使用时候的思考，如有不足之处请见谅.</font>**
 
 ## Project Introduction
 
