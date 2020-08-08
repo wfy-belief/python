@@ -122,9 +122,17 @@ print(ret.group())
 - `\W：[^0-9a-zA-Z_]`
 
 ## 练习预览
-<iframe width="100%" height="3400px" src="/re/single-character.html"></iframe>
+<p>本次练习使用jupyter notebook，对应预览和在线交互如下。</p>
+<a href="https://nbviewer.jupyter.org/github/wfy-belief/python/blob/master/docs/re/single-character.ipynb"><button class="mybutton">jupyter notebook在线预览</button></a><a href="https://mybinder.org/v2/gh/wfy-belief/python/master?filepath=docs/re/single-character.ipynb"><button class="mybutton">jupyter notebook在线交互（加载时间长）</button></a>
+
+## jupyter notebook 在线嵌入
+
+由 `nbviewer.jupyter.org` 加载，速度较慢，且部分 `js` 无法加载，请见谅。
+
+
+<iframe src="https://nbviewer.jupyter.org/github/wfy-belief/python/blob/master/docs/re/single-character.ipynb" width="1000px" height="500px" scrolling="yes"></iframe>
 
 ## 附文档及代码
 
-<a href="https://cdn.jsdelivr.net/gh/wfy-belief/python/docs/re/single-character.ipynb"><button class="mybutton">jupyter notebook文档下载</button></a><a href="https://cdn.jsdelivr.net/gh/wfy-belief/python/docs/re/single-character.html"><button class="mybutton">练习预览HTML源代码</button></a><a href="https://python.wfyblog.cn/re/single-character.html"><button class="mybutton">练习预览演示界面</button></a><a href="https://cdn.jsdelivr.net/gh/wfy-belief/python/docs/re/single-character.md"><button class="mybutton">本页markdown原文档</button></a>
+<a href="https://cdn.jsdelivr.net/gh/wfy-belief/python/docs/re/single-character.ipynb"><button class="mybutton">jupyter notebook文档下载</button></a><a href="https://cdn.jsdelivr.net/gh/wfy-belief/python/docs/re/single-character.md"><button class="mybutton">本页markdown原文档</button></a>
 
