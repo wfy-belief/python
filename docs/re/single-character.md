@@ -130,7 +130,7 @@ print(ret.group())
 由 `nbviewer.jupyter.org` 加载，速度较慢，且部分 `js` 无法加载，请见谅。
 
 
-<iframe src="https://nbviewer.jupyter.org/github/wfy-belief/python/blob/master/docs/re/single-character.ipynb" width="1000px" height="500px" scrolling="yes"></iframe>
+<iframe src="https://nbviewer.jupyter.org/github/wfy-belief/python/blob/master/docs/re/single-character.ipynb" width="100%" height="500px" scrolling="yes"></iframe>
 
 ## 附文档及代码
 
