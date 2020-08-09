@@ -373,7 +373,4 @@ if __name__ == '__main__':
 
 ## 效果展示
 
-```chart
-{"color":["#3398DB"],"tooltip":{"trigger":"axis","axisPointer":{"type":"shadow"}},"grid":{"left":"3%","right":"4%","bottom":"3%","containLabel":true},"xAxis":[{"type":"category","data":["那曲","玉树","海北","日喀则","山南","阿里","大兴安岭","果洛","迪庆","拉萨"],"axisTick":{"alignWithLabel":true}}],"yAxis":[{"type":"value"}],"series":[{"name":"直接访问","type":"bar","barWidth":"60%","data":[6,7,10,10,10,10,11,11,11,11]}]}
-```
-
+<iframe width="100%" height="530" style="" src="./bs4/main.html"></iframe>
