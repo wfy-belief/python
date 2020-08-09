@@ -2,10 +2,32 @@
 
 优化了index的大小，删除繁琐代码，但保留原来代码文件。
 
+- 合并 `js` `cdn` 加载，避免多次请求。
+
+  ```
+  <script src="//cdn.jsdelivr.net/npm/docsify@latest/lib/docsify.min.js">//@4.11.4</script>
+          <script src="//cdn.jsdelivr.net/npm/docsify@latest/lib/plugins/search.min.js"></script>
+          <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@latest/dist/docsify-copy-code.min.js">//@2.1.0</script>
+          <script src="//cdn.jsdelivr.net/npm/docsify@latest/lib/plugins/zoom-image.min.js">//@4.11.4</script>
+          <script src="//cdn.jsdelivr.net/npm/prismjs@latest/components/prism-python.min.js">//@1.21.0</script>
+  ```
+
+  ```
+  <script src="//cdn.jsdelivr.net/combine/npm/docsify@latest/lib/docsify.min.js,npm/docsify@latest/lib/plugins/search.min.js,npm/docsify-copy-code@latest/dist/docsify-copy-code.min.js,npm/docsify@latest/lib/plugins/zoom-image.min.js,npm/prismjs@latest/components/prism-python.min.js">//@4.11.4</script>
+  ```
+
+  
+
+- 更改字体加载缓慢的[问题](https://web.dev/font-display/)提升性能，即字体链接后面添加 `&display=swap`
+
 - 所有脚本采用 `jsdelivr` 加速，加载速度提升由原来 `200+ms` 降低至 `20+ms`
+
 - index.html 从 12KB 减少到  3KB
+
 - ~~修改样式 主页面大小为 `80%`~~存在若干bug,修改为指定值`1000px`
+
 - 了解新的可视化方法
+
 - 把加载的脚本隐藏到 `div[@id='app']`标签内
 
 ## 基于docsify可视化使用
