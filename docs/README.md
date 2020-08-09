@@ -2,8 +2,6 @@
 
 优化了index的大小，删除繁琐代码，但保留原来代码文件。
 
-- 下架首页可视化展示界面
-
 - 合并 `js` `cdn` 加载，避免多次请求。
 
   ```
@@ -63,9 +61,7 @@ md文档添加如下代码即可
 <iframe width="900px" height="500px" src="./grid_multi_yaxis.html"></iframe>
 ```
 
-为了优化加载速度此页面不在展示可视化组件。
-
-如需访问请详见[可视化界面](/pyecharts/README)
+<iframe width="900px" height="520px" src="./grid_multi_yaxis.html"></iframe>
 
 ## 首页
 
