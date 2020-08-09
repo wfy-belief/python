@@ -1,4 +1,4 @@
-<img width="200px" src="https://cdn.jsdelivr.net/gh/wfy-belief/PicGo-images/img/avatar.png">
+<img   width="200px" height=“100%” src="https://cdn.jsdelivr.net/gh/wfy-belief/PicGo-images/img/avatar.png">
 
 ### Python学习历程
 
