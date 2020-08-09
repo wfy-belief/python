@@ -12,7 +12,7 @@ except Exception:
 
 geo = (
     Geo()
-    .add_schema(maptype="瑞士")
-    .set_global_opts(title_opts=opts.TitleOpts(title="瑞士"))
+    .add_schema(maptype="china")
+    .set_global_opts(title_opts=opts.TitleOpts(title="中国"))
     .render("geo_chart_countries_js.html")
 )
