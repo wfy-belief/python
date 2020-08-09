@@ -2,14 +2,16 @@
 
 优化了index的大小，删除繁琐代码，但保留原来代码文件。
 
+- 下架首页可视化展示界面
+
 - 合并 `js` `cdn` 加载，避免多次请求。
 
   ```
   <script src="//cdn.jsdelivr.net/npm/docsify@latest/lib/docsify.min.js">//@4.11.4</script>
-          <script src="//cdn.jsdelivr.net/npm/docsify@latest/lib/plugins/search.min.js"></script>
-          <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@latest/dist/docsify-copy-code.min.js">//@2.1.0</script>
-          <script src="//cdn.jsdelivr.net/npm/docsify@latest/lib/plugins/zoom-image.min.js">//@4.11.4</script>
-          <script src="//cdn.jsdelivr.net/npm/prismjs@latest/components/prism-python.min.js">//@1.21.0</script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@latest/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@latest/dist/docsify-copy-code.min.js">//@2.1.0</script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@latest/lib/plugins/zoom-image.min.js">//@4.11.4</script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@latest/components/prism-python.min.js">//@1.21.0</script>
   ```
 
   ```
@@ -61,9 +63,9 @@ md文档添加如下代码即可
 <iframe width="900px" height="500px" src="./grid_multi_yaxis.html"></iframe>
 ```
 
-展示
+为了优化加载速度此页面不在展示可视化组件。
 
-<iframe width="100%" height="530" style="" src="./grid_multi_yaxis.html"></iframe>
+如需访问请详见[可视化界面](/pyecharts/README)
 
 ## 首页
 
