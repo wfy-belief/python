@@ -7,11 +7,11 @@
 
 </head>
 <body>
-    <div id="8a9b5d2fd0204d32953a51dbcfbd0d6c" class="chart-container" style="width:900px; height:500px;"></div>
+    <div id="88ba5d13f88642e899fe7fbcb785c63b" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_8a9b5d2fd0204d32953a51dbcfbd0d6c = echarts.init(
-            document.getElementById('8a9b5d2fd0204d32953a51dbcfbd0d6c'), 'white', {renderer: 'canvas'});
-        var option_8a9b5d2fd0204d32953a51dbcfbd0d6c = {
+        var chart_88ba5d13f88642e899fe7fbcb785c63b = echarts.init(
+            document.getElementById('88ba5d13f88642e899fe7fbcb785c63b'), 'white', {renderer: 'canvas'});
+        var option_88ba5d13f88642e899fe7fbcb785c63b = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -50,16 +50,27 @@
         {
             "type": "bar",
             "name": "\u5546\u5bb6A",
+            "legendHoverLink": true,
             "data": [
-                111,
-                66,
-                136,
-                141,
-                85,
-                45,
-                126
+                49,
+                39,
+                58,
+                133,
+                120,
+                37,
+                77
             ],
+            "showBackground": false,
+            "barMinHeight": 0,
             "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
             "label": {
                 "show": true,
                 "position": "top",
@@ -69,16 +80,27 @@
         {
             "type": "bar",
             "name": "\u5546\u5bb6B",
+            "legendHoverLink": true,
             "data": [
-                129,
-                119,
-                119,
-                143,
-                106,
-                125,
-                78
+                114,
+                142,
+                73,
+                69,
+                130,
+                61,
+                63
             ],
+            "showBackground": false,
+            "barMinHeight": 0,
             "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
             "label": {
                 "show": true,
                 "position": "top",
@@ -110,10 +132,15 @@
         "axisPointer": {
             "type": "line"
         },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
         "textStyle": {
             "fontSize": 14
         },
-        "borderWidth": 0
+        "borderWidth": 0,
+        "padding": 5
     },
     "xAxis": [
         {
@@ -201,7 +228,7 @@
             "width": 0,
             "height": 0,
             "style": {
-                "image": "https://www.echartsjs.com/zh/images/favicon.png",
+                "image": "https://echarts.apache.org/zh/images/favicon.png",
                 "x": 0,
                 "y": 0,
                 "width": 150,
@@ -211,7 +238,7 @@
         }
     ]
 };
-        chart_8a9b5d2fd0204d32953a51dbcfbd0d6c.setOption(option_8a9b5d2fd0204d32953a51dbcfbd0d6c);
+        chart_88ba5d13f88642e899fe7fbcb785c63b.setOption(option_88ba5d13f88642e899fe7fbcb785c63b);
     </script>
 </body>
 </html>
