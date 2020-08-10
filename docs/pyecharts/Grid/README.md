@@ -1,4 +1,4 @@
-# 3D 柱状图 Bar3D
+# 组合组件 Grid
 []()
 - [Grid - Grid_overlap_multi_xy_axis](/pyecharts/Grid/grid_overlap_multi_xy_axis.md 'include :type=code')
 - [Grid - Grid_multi_yaxis](/pyecharts/Grid/grid_multi_yaxis.md 'include :type=code')
