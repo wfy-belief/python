@@ -44,7 +44,7 @@ https://cdn.jsdelivr.net/npm/echarts-themes-js@latest/echarts-themes-js/
 
 ```html
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-maps@latest/china.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/echarts-maps/echarts-china-provinces-js@/echarts-china-provinces-js/guangdong.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/echarts-maps/echarts-china-provinces-js@latest/echarts-china-provinces-js/guangdong.js"></script>
 
 ```
 
