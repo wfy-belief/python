@@ -23,7 +23,7 @@ async def get_json_data(url: str) -> dict:
 
 # 下载香港地图
 data = asyncio.run(
-    get_json_data(url="https://echarts.baidu.com/examples/data/asset/geo/HK.json")
+    get_json_data(url="https://echarts.apache.org/examples/data/asset/geo/HK.json")
 )
 
 MAP_DATA = [

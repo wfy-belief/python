@@ -1057,7 +1057,8 @@ def get_year_chart(year: str):
         .add_yaxis(
             "",
             data_mark,
-            markpoint_opts=opts.MarkPointOpts(data=[opts.MarkPointItem(type_="max")]),
+            markpoint_opts=opts.MarkPointOpts(
+                data=[opts.MarkPointItem(type_="max")]),
         )
         .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
         .set_global_opts(
@@ -1068,12 +1069,14 @@ def get_year_chart(year: str):
     )
     bar_x_data = [x[0] for x in map_data]
     bar_y_data = [{"name": x[0], "value": x[1][0]} for x in map_data]
+    # bar_y_data = [x[1] for x in map_data]
+
     bar = (
         Bar()
         .add_xaxis(xaxis_data=bar_x_data)
         .add_yaxis(
             series_name="",
-            yaxis_data=bar_y_data,
+            y_axis=bar_y_data,
             label_opts=opts.LabelOpts(
                 is_show=True, position="right", formatter="{b} : {c}"
             ),
@@ -1083,7 +1086,8 @@ def get_year_chart(year: str):
             xaxis_opts=opts.AxisOpts(
                 max_=maxNum, axislabel_opts=opts.LabelOpts(is_show=False)
             ),
-            yaxis_opts=opts.AxisOpts(axislabel_opts=opts.LabelOpts(is_show=False)),
+            yaxis_opts=opts.AxisOpts(
+                axislabel_opts=opts.LabelOpts(is_show=False)),
             tooltip_opts=opts.TooltipOpts(is_show=False),
             visualmap_opts=opts.VisualMapOpts(
                 is_calculable=True,
@@ -1140,7 +1144,8 @@ def get_year_chart(year: str):
 
 if __name__ == "__main__":
     timeline = Timeline(
-        init_opts=opts.InitOpts(width="1600px", height="900px", theme=ThemeType.DARK)
+        init_opts=opts.InitOpts(
+            width="1600px", height="900px", theme=ThemeType.DARK)
     )
     for y in time_list:
         g = get_year_chart(year=y)
@@ -1163,4 +1168,8 @@ if __name__ == "__main__":
 
 ```
 
-<iframe width="100%" height="800px" src="Map/china_gdp_from_1993_to_2018.html"></iframe>
+<iframe width="100%" height="800px" src="/pyecharts/Map/china_gdp_from_1993_to_2018.html"></iframe>
+
+## 附文档及代码
+
+<a href="https://cdn.jsdelivr.net/gh/wfy-belief/python/docs/pyecharts/Map/china_gdp_from_1993_to_2018.py"><button class="mybutton">pyecharts代码下载</button></a><a href="https://cdn.jsdelivr.net/gh/wfy-belief/python/docs/pyecharts/Map/china_gdp_from_1993_to_2018.html"><button class="mybutton">HTML源代码</button></a><a href="https://python.wfyblog.cn/pyecharts/Map/china_gdp_from_1993_to_2018.html"><button class="mybutton">独立图形演示界面</button></a><a href="https://cdn.jsdelivr.net/gh/wfy-belief/python/docs/pyecharts/Map/china_gdp_from_1993_to_2018.md"><button class="mybutton">本页markdown原文档</button></a>
