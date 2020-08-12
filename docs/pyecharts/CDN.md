@@ -67,3 +67,9 @@ https://cdn.jsdelivr.net/npm/echarts-themes-js@latest/echarts-themes-js/
 <a href="https://cdn.jsdelivr.net/gh/wfy-belief/python/docs/pyecharts/Grid/favicon.png"><button class="mybutton">favicon.png</button></a>
 ```
 
+### `echarts-liquidfill.min.js`
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-liquidfill@latest/dist/echarts-liquidfill.min.js"></script>
+```
+
