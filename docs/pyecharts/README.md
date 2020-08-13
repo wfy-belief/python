@@ -2,6 +2,7 @@
 
 ## 前言
 
+- **<font color=#3b9a9c>2020.08.13：该版本是在 `pyecharts 1.8.1`运行，所以1.7.1版本内容做了适配。区别是 Bar y 的参数更改为 `y_axis`(/pyecharts/CDN)</font>**
 - **<font color=#3b9a9c>2020.08.10：增加[CDN说明页](/pyecharts/CDN)</font>**
 
 - **<font color=#3b9a9c>2020.08.10：对于默认 `echarts.min.js` 加载缓慢问题，可以由如下方案</font>**
