@@ -42,4 +42,8 @@ data = [[12.99, 100, 82, "Good"], [9.99, 80, 77, "OK"], [20, 120, 60, "Excellent
 
 ```
 
-<iframe width="100%" height="800px" src="Parallel/basic_parallel.html"></iframe>
+<iframe width="100%" height="800px" src="/pyecharts/Parallel/basic_parallel.html"></iframe>
+
+## 附文档及代码
+
+<a href="https://cdn.jsdelivr.net/gh/wfy-belief/python/docs/pyecharts/Parallel/basic_parallel.py"><button class="mybutton">pyecharts代码下载</button></a><a href="https://cdn.jsdelivr.net/gh/wfy-belief/python/docs/pyecharts/Parallel/basic_parallel.html"><button class="mybutton">HTML源代码</button></a><a href="https://python.wfyblog.cn/pyecharts/Parallel/basic_parallel.html"><button class="mybutton">独立图形演示界面</button></a><a href="https://cdn.jsdelivr.net/gh/wfy-belief/python/docs/pyecharts/Parallel/basic_parallel.md"><button class="mybutton">本页markdown原文档</button></a>

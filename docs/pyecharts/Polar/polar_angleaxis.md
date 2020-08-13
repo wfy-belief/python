@@ -18,4 +18,4 @@ c = (
 
 ```
 
-<iframe width="100%" height="800px" src="Polar/polar_angleaxis.html"></iframe>
+<iframe width="100%" height="800px" src="/pyecharts/Polar/polar_angleaxis.html"></iframe>

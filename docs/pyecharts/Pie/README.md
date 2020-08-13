@@ -1,3 +1,5 @@
+# 饼状图 Pie
+[]()
 - [Pie - Pie_set_color](Pie/pie_set_color.md 'include :type=code')
 - [Pie - Customized_pie](Pie/customized_pie.md 'include :type=code')
 - [Pie - Pie_rich_label](Pie/pie_rich_label.md 'include :type=code')
