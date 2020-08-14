@@ -1,4 +1,0 @@
-- [主页](/pycharts/README.md)
-- Language 语言
-  - [中文](/pycharts/README.md)
-  - [English](/pycharts/README_EN.md)

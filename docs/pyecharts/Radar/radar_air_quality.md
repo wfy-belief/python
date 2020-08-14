@@ -53,4 +53,8 @@ c = (
 
 ```
 
-<iframe width="100%" height="800px" src="Radar/radar_air_quality.html"></iframe>
+<iframe width="100%" height="800px" src="/pyecharts/Radar/radar_air_quality.html"></iframe>
+
+## 附文档及代码
+
+<a href="https://cdn.jsdelivr.net/gh/wfy-belief/python/docs/pyecharts/Radar/radar_air_quality.py"><button class="mybutton">pyecharts代码下载</button></a><a href="https://cdn.jsdelivr.net/gh/wfy-belief/python/docs/pyecharts/Radar/radar_air_quality.html"><button class="mybutton">HTML源代码</button></a><a href="https://python.wfyblog.cn/pyecharts/Radar/radar_air_quality.html"><button class="mybutton">独立图形演示界面</button></a><a href="https://cdn.jsdelivr.net/gh/wfy-belief/python/docs/pyecharts/Radar/radar_air_quality.md"><button class="mybutton">本页markdown原文档</button></a>
