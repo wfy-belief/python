@@ -1,65 +1,74 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>Awesome-pyecharts</title>
-            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
-
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/wfy-belief/PicGo-images/img/favicon.png">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@latest/dist/echarts.min.js"></script>
+    <script>
+        try {
+            top.location.hostname;
+            if (top.location.hostname != window.location.hostname) {
+                top.location.href = window.location.href;
+            }
+        } catch (e) {
+            top.location.href = window.location.href;
+        }
+    </script>
 </head>
+
 <body>
     <div id="a1afef3a375c4e2ebc5264fb6a6cbd0d" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
         var chart_a1afef3a375c4e2ebc5264fb6a6cbd0d = echarts.init(
-            document.getElementById('a1afef3a375c4e2ebc5264fb6a6cbd0d'), 'white', {renderer: 'canvas'});
+            document.getElementById('a1afef3a375c4e2ebc5264fb6a6cbd0d'), 'white', {
+                renderer: 'canvas'
+            });
         var option_a1afef3a375c4e2ebc5264fb6a6cbd0d = {
-    "animation": true,
-    "animationThreshold": 2000,
-    "animationDuration": 1000,
-    "animationEasing": "cubicOut",
-    "animationDelay": 0,
-    "animationDurationUpdate": 300,
-    "animationEasingUpdate": "cubicOut",
-    "animationDelayUpdate": 0,
-    "color": [
-        "#c23531",
-        "#2f4554",
-        "#61a0a8",
-        "#d48265",
-        "#749f83",
-        "#ca8622",
-        "#bda29a",
-        "#6e7074",
-        "#546570",
-        "#c4ccd3",
-        "#f05b72",
-        "#ef5b9c",
-        "#f47920",
-        "#905a3d",
-        "#fab27b",
-        "#2a5caa",
-        "#444693",
-        "#726930",
-        "#b2d235",
-        "#6d8346",
-        "#ac6767",
-        "#1d953f",
-        "#6950a1",
-        "#918597"
-    ],
-    "series": [
-        {
-            "type": "tree",
-            "data": [
-                {
+            "animation": true,
+            "animationThreshold": 2000,
+            "animationDuration": 1000,
+            "animationEasing": "cubicOut",
+            "animationDelay": 0,
+            "animationDurationUpdate": 300,
+            "animationEasingUpdate": "cubicOut",
+            "animationDelayUpdate": 0,
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ],
+            "series": [{
+                "type": "tree",
+                "data": [{
                     "name": "flare",
-                    "children": [
-                        {
+                    "children": [{
                             "name": "analytics",
-                            "children": [
-                                {
+                            "children": [{
                                     "name": "cluster",
-                                    "children": [
-                                        {
+                                    "children": [{
                                             "name": "AgglomerativeCluster",
                                             "value": 3938
                                         },
@@ -75,8 +84,7 @@
                                 },
                                 {
                                     "name": "graph",
-                                    "children": [
-                                        {
+                                    "children": [{
                                             "name": "BetweennessCentrality",
                                             "value": 3534
                                         },
@@ -100,23 +108,19 @@
                                 },
                                 {
                                     "name": "optimization",
-                                    "children": [
-                                        {
-                                            "name": "AspectRatioBanker",
-                                            "value": 7074
-                                        }
-                                    ]
+                                    "children": [{
+                                        "name": "AspectRatioBanker",
+                                        "value": 7074
+                                    }]
                                 }
                             ],
                             "collapsed": "false"
                         },
                         {
                             "name": "data",
-                            "children": [
-                                {
+                            "children": [{
                                     "name": "converters",
-                                    "children": [
-                                        {
+                                    "children": [{
                                             "name": "Converters",
                                             "value": 721
                                         },
@@ -158,8 +162,7 @@
                         },
                         {
                             "name": "display",
-                            "children": [
-                                {
+                            "children": [{
                                     "name": "DirtySprite",
                                     "value": 8833
                                 },
@@ -180,8 +183,7 @@
                         },
                         {
                             "name": "physics",
-                            "children": [
-                                {
+                            "children": [{
                                     "name": "DragForce",
                                     "value": 1082
                                 },
@@ -217,8 +219,7 @@
                         },
                         {
                             "name": "query",
-                            "children": [
-                                {
+                            "children": [{
                                     "name": "DateUtil",
                                     "value": 4141
                                 },
@@ -236,8 +237,7 @@
                                 },
                                 {
                                     "name": "methods",
-                                    "children": [
-                                        {
+                                    "children": [{
                                             "name": "add",
                                             "value": 593
                                         },
@@ -320,8 +320,7 @@
                         },
                         {
                             "name": "scale",
-                            "children": [
-                                {
+                            "children": [{
                                     "name": "IScaleMap",
                                     "value": 2105
                                 },
@@ -349,8 +348,7 @@
                         },
                         {
                             "name": "util",
-                            "children": [
-                                {
+                            "children": [{
                                     "name": "Arrays",
                                     "value": 8258
                                 },
@@ -376,8 +374,7 @@
                                 },
                                 {
                                     "name": "heap",
-                                    "children": [
-                                        {
+                                    "children": [{
                                             "name": "FibonacciHeap",
                                             "value": 9354
                                         },
@@ -401,8 +398,7 @@
                                 },
                                 {
                                     "name": "math",
-                                    "children": [
-                                        {
+                                    "children": [{
                                             "name": "DenseMatrix",
                                             "value": 3165
                                         },
@@ -436,60 +432,55 @@
                             "collapsed": "false"
                         }
                     ]
-                }
-            ],
-            "symbol": "emptyCircle",
-            "symbolSize": 7,
-            "roam": false,
-            "expandAndCollapse": true,
-            "layout": "orthogonal",
-            "orient": "LR",
-            "label": {
-                "show": true,
-                "position": "top",
-                "margin": 8
-            },
-            "leaves": {
+                }],
+                "symbol": "emptyCircle",
+                "symbolSize": 7,
+                "roam": false,
+                "expandAndCollapse": true,
+                "layout": "orthogonal",
+                "orient": "LR",
                 "label": {
                     "show": true,
                     "position": "top",
                     "margin": 8
+                },
+                "leaves": {
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    }
                 }
-            }
-        }
-    ],
-    "legend": [
-        {
-            "data": [],
-            "selected": {},
-            "show": true,
-            "padding": 5,
-            "itemGap": 10,
-            "itemWidth": 25,
-            "itemHeight": 14
-        }
-    ],
-    "tooltip": {
-        "show": true,
-        "trigger": "item",
-        "triggerOn": "mousemove|click",
-        "axisPointer": {
-            "type": "line"
-        },
-        "textStyle": {
-            "fontSize": 14
-        },
-        "borderWidth": 0
-    },
-    "title": [
-        {
-            "text": "Tree-\u5de6\u53f3\u65b9\u5411",
-            "padding": 5,
-            "itemGap": 10
-        }
-    ]
-};
+            }],
+            "legend": [{
+                "data": [],
+                "selected": {},
+                "show": true,
+                "padding": 5,
+                "itemGap": 10,
+                "itemWidth": 25,
+                "itemHeight": 14
+            }],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0
+            },
+            "title": [{
+                "text": "Tree-\u5de6\u53f3\u65b9\u5411",
+                "padding": 5,
+                "itemGap": 10
+            }]
+        };
         chart_a1afef3a375c4e2ebc5264fb6a6cbd0d.setOption(option_a1afef3a375c4e2ebc5264fb6a6cbd0d);
     </script>
 </body>
+
 </html>

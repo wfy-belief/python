@@ -7,7 +7,7 @@ tl.add_schema(pos_left="50%", pos_right="10px", pos_bottom="15px")
 for i in range(2015, 2020):
     bmap = (
         BMap()
-        .add_schema(baidu_ak="FAKE_AK", center=[120.13066322374, 30.240018034923])
+        .add_schema(baidu_ak="53oVIOgmSIejwV7EfphPgTynOZbIiVYu", center=[120.13066322374, 30.240018034923])
         .add(
             "bmap",
             [list(z) for z in zip(Faker.provinces, Faker.values())],

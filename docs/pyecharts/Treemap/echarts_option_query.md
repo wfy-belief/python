@@ -28,8 +28,7 @@ async def get_json_data(url: str) -> dict:
 # 获取官方的数据
 data = asyncio.run(
     get_json_data(
-        url="https://echarts.baidu.com/examples/data/asset/data/"
-        "ec-option-doc-statistics-201604.json"
+        url="https://echarts.apache.org/examples/data/asset/data/ec-option-doc-statistics-201604.json"
     )
 )
 
@@ -57,7 +56,7 @@ convert(source=data, target=tree_map_data, base_path="")
 
 
 (
-    TreeMap(init_opts=opts.InitOpts(width="1280px", height="720px"))
+    TreeMap(init_opts=opts.InitOpts(width="1200px", height="720px"))
     .add(
         series_name="option",
         data=tree_map_data["children"],
@@ -77,4 +76,8 @@ convert(source=data, target=tree_map_data, base_path="")
 
 ```
 
-<iframe width="100%" height="800px" src="Treemap/echarts_option_query.html"></iframe>
+<iframe width="100%" height="800px" src="/pyecharts/Treemap/echarts_option_query.html"></iframe>
+
+## 附文档及代码
+
+<a href="https://cdn.jsdelivr.net/gh/wfy-belief/python/docs/pyecharts/Treemap/echarts_option_query.py"><button class="mybutton">pyecharts代码下载</button></a><a href="https://cdn.jsdelivr.net/gh/wfy-belief/python/docs/pyecharts/Treemap/echarts_option_query.html"><button class="mybutton">HTML源代码</button></a><a href="https://python.wfyblog.cn/pyecharts/Treemap/echarts_option_query.html"><button class="mybutton">独立图形演示界面</button></a><a href="https://cdn.jsdelivr.net/gh/wfy-belief/python/docs/pyecharts/Treemap/echarts_option_query.md"><button class="mybutton">本页markdown原文档</button></a>

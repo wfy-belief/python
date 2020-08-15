@@ -26,7 +26,7 @@ async def get_json_data(url: str) -> dict:
 
 # 获取官方的数据
 data = asyncio.run(
-    get_json_data(url="https://echarts.baidu.com/examples/data/asset/data/flare.json")
+    get_json_data(url="https://echarts.apache.org/examples/data/asset/data/flare.json")
 )
 
 (
@@ -48,4 +48,8 @@ data = asyncio.run(
 
 ```
 
-<iframe width="100%" height="800px" src="Tree/radial_tree.html"></iframe>
+<iframe width="100%" height="800px" src="/pyecharts/Tree/radial_tree.html"></iframe>
+
+## 附文档及代码
+
+<a href="https://cdn.jsdelivr.net/gh/wfy-belief/python/docs/pyecharts/Tree/radial_tree.py"><button class="mybutton">pyecharts代码下载</button></a><a href="https://cdn.jsdelivr.net/gh/wfy-belief/python/docs/pyecharts/Tree/radial_tree.html"><button class="mybutton">HTML源代码</button></a><a href="https://python.wfyblog.cn/pyecharts/Tree/radial_tree.html"><button class="mybutton">独立图形演示界面</button></a><a href="https://cdn.jsdelivr.net/gh/wfy-belief/python/docs/pyecharts/Tree/radial_tree.md"><button class="mybutton">本页markdown原文档</button></a>

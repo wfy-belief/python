@@ -1,1 +1,3 @@
-- [Themeriver - Theme_river](ThemeRiver/theme_river.md 'include :type=code')
+# 主题河流图 ThemeRiver
+[]()
+- [Themeriver - Theme_river](/pyecharts/ThemeRiver/theme_river.md 'include :type=code')

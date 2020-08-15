@@ -11,7 +11,7 @@ tl.add_schema(pos_left="50%", pos_right="10px", pos_bottom="15px")
 for i in range(2015, 2020):
     bmap = (
         BMap()
-        .add_schema(baidu_ak="FAKE_AK", center=[120.13066322374, 30.240018034923])
+        .add_schema(baidu_ak="53oVIOgmSIejwV7EfphPgTynOZbIiVYu", center=[120.13066322374, 30.240018034923])
         .add(
             "bmap",
             [list(z) for z in zip(Faker.provinces, Faker.values())],
@@ -28,4 +28,9 @@ tl.render("timeline_bmap.html")
 
 ```
 
-<iframe width="100%" height="800px" src="Timeline/timeline_bmap.html"></iframe>
+<iframe width="100%" height="800px" src="/pyecharts/Timeline/timeline_bmap.html"></iframe>
+
+## 附文档及代码
+
+<a href="https://cdn.jsdelivr.net/gh/wfy-belief/python/docs/pyecharts/Timeline/timeline_bmap.py"><button class="mybutton">pyecharts代码下载</button></a><a href="https://cdn.jsdelivr.net/gh/wfy-belief/python/docs/pyecharts/Timeline/timeline_bmap.html"><button class="mybutton">HTML源代码</button></a><a href="https://python.wfyblog.cn/pyecharts/Timeline/timeline_bmap.html"><button class="mybutton">独立图形演示界面</button></a><a href="https://cdn.jsdelivr.net/gh/wfy-belief/python/docs/pyecharts/Timeline/timeline_bmap.md"><button class="mybutton">本页markdown原文档</button></a>
+

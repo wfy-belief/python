@@ -60,4 +60,8 @@ tl.render("timeline_bar_with_graphic.html")
 
 ```
 
-<iframe width="100%" height="800px" src="Timeline/timeline_bar_with_graphic.html"></iframe>
+<iframe width="100%" height="800px" src="/pyecharts/Timeline/timeline_bar_with_graphic.html"></iframe>
+
+## 附文档及代码
+
+<a href="https://cdn.jsdelivr.net/gh/wfy-belief/python/docs/pyecharts/Timeline/timeline_bar_with_graphic.py"><button class="mybutton">pyecharts代码下载</button></a><a href="https://cdn.jsdelivr.net/gh/wfy-belief/python/docs/pyecharts/Timeline/timeline_bar_with_graphic.html"><button class="mybutton">HTML源代码</button></a><a href="https://python.wfyblog.cn/pyecharts/Timeline/timeline_bar_with_graphic.html"><button class="mybutton">独立图形演示界面</button></a><a href="https://cdn.jsdelivr.net/gh/wfy-belief/python/docs/pyecharts/Timeline/timeline_bar_with_graphic.md"><button class="mybutton">本页markdown原文档</button></a>
