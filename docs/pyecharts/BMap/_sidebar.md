@@ -285,7 +285,7 @@
     - [**主题河流图 ThemeRiver**](/pyecharts/ThemeRiver/README.md)
         - [Themeriver - Theme_river](/pyecharts/ThemeRiver/theme_river.md ':type=code')
         
-    - [**时间轴组件 Timeline**](/pyecharts//pyecharts/Timeline/README.md)
+    - [**时间轴组件 Timeline**](/pyecharts/Timeline/README.md)
         - [Timeline - Timeline_pie](/pyecharts/Timeline/timeline_pie.md ':type=code')
         - [Timeline - Timeline_bar_with_graphic](/pyecharts/Timeline/timeline_bar_with_graphic.md ':type=code')
         - [Timeline - Timeline_bmap](/pyecharts/Timeline/timeline_bmap.md ':type=code')
@@ -304,7 +304,7 @@
         - [Tree - Radial_tree](/pyecharts/Tree/radial_tree.md ':type=code')
         - [Tree - Tree_layout](/pyecharts/Tree/tree_layout.md ':type=code')
         
-    - [**矩形树图 Treemap**](/pyecharts//pyecharts/Treemap/pyecharts/Map/README.md)
+    - [**矩形树图 Treemap**](/pyecharts/Treemap/README.md)
         - [Treemap - Echarts_option_query](/pyecharts/Treemap/echarts_option_query.md ':type=code')
         - [Treemap - Treemap_levels](/pyecharts/Treemap/treemap_levels.md ':type=code')
         - [Treemap - Treemap_base](/pyecharts/Treemap/treemap_base.md ':type=code')
