@@ -20,3 +20,4 @@
 
 * **可视化方法**
   - [pyecharts-gallery](</pyecharts/README>)
+  - [pyecharts-doc](</doc-pyecharts/zh-cn/>)
