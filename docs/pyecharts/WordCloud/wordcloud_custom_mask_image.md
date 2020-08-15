@@ -269,6 +269,8 @@ c = (
 
 ```
 
+<h3><font color=red>该部分出现问题，等待官方修复后，再进行完善</font></h3>
+
 <iframe width="100%" height="800px" src="/pyecharts/WordCloud/wordcloud_custom_mask_image.html"></iframe>
 
 ## 附文档及代码

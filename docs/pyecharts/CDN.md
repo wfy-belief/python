@@ -73,3 +73,9 @@ https://cdn.jsdelivr.net/npm/echarts-themes-js@latest/echarts-themes-js/
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-liquidfill@latest/dist/echarts-liquidfill.min.js"></script>
 ```
 
+### `echarts-wordcloud.min.js`
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-wordcloud@latest/dist/echarts-wordcloud.min.js"></script>
+```
+
