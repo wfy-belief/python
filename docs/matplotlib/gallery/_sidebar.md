@@ -1,6 +1,6 @@
 * **关联 （Correlation）**
   - [散点图（Scatter plot）](</matplotlib/gallery/1>)
-  - [ 带边界的气泡图（Bubble plot with Encircling）](</matplotlib/gallery/2>)
+  - [带边界的气泡图（Bubble plot with Encircling）](</matplotlib/gallery/2>)
   - [带线性回归最佳拟合线的散点图 （Scatter plot with linear regression line of best fit）](</matplotlib/gallery/3>)
   - [抖动图 （Jittering with stripplot）](</matplotlib/gallery/4>)
   - [计数图 （Counts Plot）](</matplotlib/gallery/5>)
