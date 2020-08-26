@@ -1,22 +1,27 @@
-* **关联 （Correlation）**
-  - [散点图（Scatter plot）](</matplotlib/gallery/1>)
-  - [ 带边界的气泡图（Bubble plot with Encircling）](</matplotlib/gallery/2>)
-  - [带线性回归最佳拟合线的散点图 （Scatter plot with linear regression line of best fit）](</matplotlib/gallery/3>)
-  - [抖动图 （Jittering with stripplot）](</matplotlib/gallery/4>)
-  - [计数图 （Counts Plot）](</matplotlib/gallery/5>)
-  - [边缘直方图 （Marginal Histogram）](</matplotlib/gallery/6>)
-  - [边缘箱形图 （Marginal Boxplot）](</matplotlib/gallery/7>)
-  - [相关图 （Correllogram）](</matplotlib/gallery/8>)
-  - [矩阵图 （Pairwise Plot）](</matplotlib/gallery/9>)
-* **偏差 （Deviation）**
-  - [发散型条形图 （Diverging Bars）](</matplotlib/gallery/10>)
-  - [发散型文本 （Diverging Texts）](</matplotlib/gallery/11>)
-  - [发散型包点图 （Diverging Dot Plot）](</matplotlib/gallery/12>)
-  - [带标记的发散型棒棒糖图 （Diverging Lollipop Chart with Markers）](</matplotlib/gallery/13>)
-  - [面积图 （Area Chart）](</matplotlib/gallery/14>)
-* **排序 （Ranking）**
-  - [有序条形图 （Ordered Bar Chart）](</matplotlib/gallery/15>)
-  - [ 棒棒糖图 （Lollipop Chart）](</matplotlib/gallery/16>)
-  - [包点图 （Dot Plot）](</matplotlib/gallery/17>)
-  - [坡度图 （Slope Chart）](</matplotlib/gallery/18>)
-  - [哑铃图 （Dumbbell Plot）](</matplotlib/gallery/19>)
+**关联 （Correlation）**
+
+1. [散点图（Scatter plot）](</matplotlib/gallery/1>)
+2. [ 带边界的气泡图（Bubble plot with Encircling）](</matplotlib/gallery/2>)
+3. [带线性回归最佳拟合线的散点图 （Scatter plot with linear regression line of best fit）](</matplotlib/gallery/3>)
+4. [抖动图 （Jittering with stripplot）](</matplotlib/gallery/4>)
+5. [计数图 （Counts Plot）](</matplotlib/gallery/5>)
+6. [边缘直方图 （Marginal Histogram）](</matplotlib/gallery/6>)
+7. [边缘箱形图 （Marginal Boxplot）](</matplotlib/gallery/7>)
+8. [相关图 （Correllogram）](</matplotlib/gallery/8>)
+9. [矩阵图 （Pairwise Plot）](</matplotlib/gallery/9>)
+
+**偏差 （Deviation）**
+
+1. [发散型条形图 （Diverging Bars）](</matplotlib/gallery/10>)
+2. [发散型文本 （Diverging Texts）](</matplotlib/gallery/11>)
+3. [发散型包点图 （Diverging Dot Plot）](</matplotlib/gallery/12>)
+4. [带标记的发散型棒棒糖图 （Diverging Lollipop Chart with Markers）](</matplotlib/gallery/13>)
+5. [面积图 （Area Chart）](</matplotlib/gallery/14>)
+
+**排序 （Ranking）**
+
+1. [有序条形图 （Ordered Bar Chart）](</matplotlib/gallery/15>)
+2. [ 棒棒糖图 （Lollipop Chart）](</matplotlib/gallery/16>)
+3. [包点图 （Dot Plot）](</matplotlib/gallery/17>)
+4. [坡度图 （Slope Chart）](</matplotlib/gallery/18>)
+5. [哑铃图 （Dumbbell Plot）](</matplotlib/gallery/19>)
