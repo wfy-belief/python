@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import asyncio
 from aiohttp import TCPConnector, ClientSession
 
@@ -10,7 +12,7 @@ from pyecharts.charts import Scatter3D
 
 """
 Gallery 使用 pyecharts 1.1.0
-参考地址: https://echarts.baidu.com/examples/editor.html?c=scatter3d&gl=1&theme=dark
+参考地址: https://echarts.apache.org/examples/editor.html?c=scatter3d&gl=1&theme=dark
 
 目前无法实现的功能:
 
@@ -27,7 +29,7 @@ async def get_json_data(url: str) -> dict:
 # 获取官方的数据
 data = asyncio.run(
     get_json_data(
-        url="https://echarts.baidu.com/examples/data/asset/data/nutrients.json"
+        url="https://echarts.apache.org/examples/data/asset/data/nutrients.json"
     )
 )
 
@@ -73,9 +75,7 @@ data = [
 ]
 
 (
-    Scatter3D(
-        init_opts=opts.InitOpts(width="1440px", height="720px")
-    )  # bg_color="black"
+    Scatter3D()  # bg_color="black"
     .add(
         series_name="",
         data=data,
@@ -125,9 +125,7 @@ data = [
         ]
     )
     .render("scatter3d.html")
-)
-
-```
+)```
 
 <iframe width="100%" height="800px" src="/pyecharts/Scatter3D/scatter3d.html"></iframe>
 

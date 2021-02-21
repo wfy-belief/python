@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 from pyecharts import options as opts
 from pyecharts.charts import Map3D
 from pyecharts.globals import ChartType
@@ -53,7 +55,6 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Map3D-Lines3D"))
     .render("map3d_with_lines3d.html")
 )
-
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Map3D/map3d_with_lines3d.html"></iframe>

@@ -2,15 +2,15 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import pyecharts.options as opts
 from pyecharts.charts import Pie
 
 """
 Gallery 使用 pyecharts 1.1.0
-参考地址: https://echarts.baidu.com/examples/editor.html?c=pie-doughnut
-
+参考地址: https://echarts.apache.org/examples/editor.html?c=pie-doughnut
 目前无法实现的功能:
-
 1、迷之颜色映射的问题
 """
 
@@ -20,7 +20,7 @@ data_pair = [list(z) for z in zip(x_data, y_data)]
 data_pair.sort(key=lambda x: x[1])
 
 (
-    Pie(init_opts=opts.InitOpts(width="1600px", height="800px", bg_color="#2c343c"))
+    Pie(init_opts=opts.InitOpts(bg_color="#2c343c"))
     .add(
         series_name="访问来源",
         data_pair=data_pair,
@@ -45,9 +45,7 @@ data_pair.sort(key=lambda x: x[1])
         label_opts=opts.LabelOpts(color="rgba(255, 255, 255, 0.3)"),
     )
     .render("customized_pie.html")
-)
-
-```
+)```
 
 <iframe width="100%" height="800px" src="/pyecharts/Pie/customized_pie.html"></iframe>
 

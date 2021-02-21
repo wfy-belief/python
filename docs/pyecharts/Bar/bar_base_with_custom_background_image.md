@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 from pyecharts import options as opts
 from pyecharts.charts import Bar
 from pyecharts.commons.utils import JsCode
@@ -30,7 +32,6 @@ c.add_js_funcs(
     """
 )
 c.render("bar_base_with_custom_background_image.html")
-
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Bar/bar_base_with_custom_background_image.html"></iframe>

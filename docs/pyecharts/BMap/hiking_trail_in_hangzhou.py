@@ -1,3 +1,5 @@
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import asyncio
 from aiohttp import TCPConnector, ClientSession
 
@@ -15,14 +17,14 @@ async def get_json_data(url: str) -> dict:
 # 获取官方的数据
 data = asyncio.run(
     get_json_data(
-        url="https://echarts.baidu.com/examples/data/asset/data/hangzhou-tracks.json"
+        url="https://echarts.apache.org/examples/data/asset/data/hangzhou-tracks.json"
     )
 )
 
 map_data = [[y["coord"] for y in x] for x in data]
 
 (
-    BMap(init_opts=opts.InitOpts(width="1600px", height="800px"))
+    BMap(init_opts=opts.InitOpts(width="1200px", height="800px"))
     .add_schema(
         baidu_ak="53oVIOgmSIejwV7EfphPgTynOZbIiVYu",
         center=[120.13066322374, 30.240018034923],

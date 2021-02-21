@@ -2,12 +2,14 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import pyecharts.options as opts
 from pyecharts.charts import ThemeRiver
 
 """
 Gallery 使用 pyecharts 1.1.0
-参考地址: https://echarts.baidu.com/examples/editor.html?c=themeRiver-basic
+参考地址: https://echarts.apache.org/examples/editor.html?c=themeRiver-basic
 
 目前无法实现的功能:
 
@@ -145,7 +147,7 @@ y_data = [
 
 
 (
-    ThemeRiver(init_opts=opts.InitOpts(width="1600px", height="800px"))
+    ThemeRiver()
     .add(
         series_name=x_data,
         data=y_data,
@@ -157,9 +159,7 @@ y_data = [
         tooltip_opts=opts.TooltipOpts(trigger="axis", axis_pointer_type="line")
     )
     .render("theme_river.html")
-)
-
-```
+)```
 
 <iframe width="100%" height="800px" src="/pyecharts/ThemeRiver/theme_river.html"></iframe>
 

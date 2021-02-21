@@ -2,15 +2,15 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import pyecharts.options as opts
 from pyecharts.charts import Bar3D
 
 """
 Gallery 使用 pyecharts 1.1.0
-参考地址: https://echarts.baidu.com/examples/editor.html?c=bar3d-punch-card&gl=1
-
+参考地址: https://echarts.apache.org/examples/editor.html?c=bar3d-punch-card&gl=1
 目前无法实现的功能:
-
 1、光照和阴影暂时无法设置
 """
 
@@ -216,7 +216,7 @@ data = [[d[1], d[0], d[2]] for d in data]
 
 
 (
-    Bar3D(init_opts=opts.InitOpts(width="1600px", height="800px"))
+    Bar3D()
     .add(
         series_name="",
         data=data,
@@ -243,9 +243,7 @@ data = [[d[1], d[0], d[2]] for d in data]
         )
     )
     .render("bar3d_punch_card.html")
-)
-
-```
+)```
 
 <iframe width="100%" height="800px" src="/pyecharts/Bar3D/bar3d_punch_card.html"></iframe>
 

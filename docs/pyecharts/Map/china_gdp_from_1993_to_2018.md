@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 from typing import List
 
 import pyecharts.options as opts
@@ -1057,8 +1059,7 @@ def get_year_chart(year: str):
         .add_yaxis(
             "",
             data_mark,
-            markpoint_opts=opts.MarkPointOpts(
-                data=[opts.MarkPointItem(type_="max")]),
+            markpoint_opts=opts.MarkPointOpts(data=[opts.MarkPointItem(type_="max")]),
         )
         .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
         .set_global_opts(
@@ -1069,8 +1070,6 @@ def get_year_chart(year: str):
     )
     bar_x_data = [x[0] for x in map_data]
     bar_y_data = [{"name": x[0], "value": x[1][0]} for x in map_data]
-    # bar_y_data = [x[1] for x in map_data]
-
     bar = (
         Bar()
         .add_xaxis(xaxis_data=bar_x_data)
@@ -1086,8 +1085,7 @@ def get_year_chart(year: str):
             xaxis_opts=opts.AxisOpts(
                 max_=maxNum, axislabel_opts=opts.LabelOpts(is_show=False)
             ),
-            yaxis_opts=opts.AxisOpts(
-                axislabel_opts=opts.LabelOpts(is_show=False)),
+            yaxis_opts=opts.AxisOpts(axislabel_opts=opts.LabelOpts(is_show=False)),
             tooltip_opts=opts.TooltipOpts(is_show=False),
             visualmap_opts=opts.VisualMapOpts(
                 is_calculable=True,
@@ -1144,8 +1142,7 @@ def get_year_chart(year: str):
 
 if __name__ == "__main__":
     timeline = Timeline(
-        init_opts=opts.InitOpts(
-            width="1600px", height="900px", theme=ThemeType.DARK)
+        init_opts=opts.InitOpts(width="1600px", height="900px", theme=ThemeType.DARK)
     )
     for y in time_list:
         g = get_year_chart(year=y)
@@ -1164,9 +1161,7 @@ if __name__ == "__main__":
         label_opts=opts.LabelOpts(is_show=True, color="#fff"),
     )
 
-    timeline.render("china_gdp_from_1993_to_2018.html")
-
-```
+    timeline.render("china_gdp_from_1993_to_2018.html")```
 
 <iframe width="100%" height="800px" src="/pyecharts/Map/china_gdp_from_1993_to_2018.html"></iframe>
 

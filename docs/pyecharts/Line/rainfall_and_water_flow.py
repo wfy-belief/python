@@ -1,8 +1,10 @@
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import pyecharts.options as opts
 from pyecharts.charts import Line, Grid
 
 """
-From Echarts Gallery: https://www.echartsjs.com/examples/zh/editor.html?c=grid-multiple
+From Echarts Gallery: https://echarts.apache.org/examples/zh/editor.html?c=grid-multiple
 """
 
 timeData = [

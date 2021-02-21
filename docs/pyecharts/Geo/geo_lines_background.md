@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 from pyecharts import options as opts
 from pyecharts.charts import Geo
 from pyecharts.globals import ChartType, SymbolType
@@ -31,7 +33,6 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Geo-Lines-background"))
     .render("geo_lines_background.html")
 )
-
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/

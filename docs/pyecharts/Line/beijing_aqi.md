@@ -2,15 +2,15 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import pyecharts.options as opts
 from pyecharts.charts import Line
 
 """
 Gallery 使用 pyecharts 1.1.0
-参考地址: https://echarts.baidu.com/examples/editor.html?c=line-aqi
-
+参考地址: https://echarts.apache.org/examples/editor.html?c=line-aqi
 目前无法实现的功能:
-
 1、dataZoom 放大的时候无法固定 Y 轴的上下限
 """
 
@@ -4946,7 +4946,7 @@ all_data = [
 ]
 
 (
-    Line(init_opts=opts.InitOpts(width="1680px", height="800px"))
+    Line()
     .add_xaxis(xaxis_data=[item[0] for item in all_data])
     .add_yaxis(
         series_name="",
@@ -4999,9 +4999,7 @@ all_data = [
         )
     )
     .render("beijing_aqi.html")
-)
-
-```
+)```
 
 <iframe width="100%" height="800px" src="/pyecharts/Line/beijing_aqi.html"></iframe>
 

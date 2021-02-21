@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import random
 
 from pyecharts import options as opts
@@ -24,7 +26,6 @@ c = (
     )
     .render("heatmap_with_label_show.html")
 )
-
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Heatmap/heatmap_with_label_show.html"></iframe>

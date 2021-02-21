@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import pyecharts.options as opts
 from pyecharts.charts import Line
 from pyecharts.faker import Faker
@@ -26,7 +28,6 @@ c = (
     )
     .render("line_areastyle_boundary_gap.html")
 )
-
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Line/line_areastyle_boundary_gap.html"></iframe>

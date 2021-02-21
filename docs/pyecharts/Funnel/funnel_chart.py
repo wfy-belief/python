@@ -1,12 +1,12 @@
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import pyecharts.options as opts
 from pyecharts.charts import Funnel
 
 """
 Gallery 使用 pyecharts 1.1.0
-参考地址: https://echarts.baidu.com/examples/editor.html?c=funnel
-
+参考地址: https://echarts.apache.org/examples/editor.html?c=funnel
 目前无法实现的功能:
-
 1、暂时无法对漏斗图的长宽等范围操作进行修改
 """
 x_data = ["展现", "点击", "访问", "咨询", "订单"]

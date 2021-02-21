@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import pyecharts.options as opts
 from pyecharts.charts import Line
 from pyecharts.commons.utils import JsCode
@@ -78,7 +80,6 @@ c = (
     )
     .render("line_color_with_js_func.html")
 )
-
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Line/line_color_with_js_func.html"></iframe>

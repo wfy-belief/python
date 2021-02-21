@@ -1,17 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
+
+<link rel="icon" href="https://cdn.jsdelivr.net/gh/wfy-belief/PicGo-images/img/favicon.png">
+<script>
+        try {
+            top.location.hostname;
+            if (top.location.hostname != window.location.hostname) {
+                top.location.href = window.location.href;
+            }
+        } catch (e) {
+            top.location.href = window.location.href;
+        }
+    </script>
+<meta charset="UTF-8">
     <title>Awesome-pyecharts</title>
-            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+            <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/echarts.min.js"></script>
 
 </head>
 <body>
-    <div id="aa651cf1eb824e6d8d2a29402f442349" class="chart-container" style="width:900px; height:500px;"></div>
+    <div id="d47607a37e604c05b5ec5fcb9d84d56b" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_aa651cf1eb824e6d8d2a29402f442349 = echarts.init(
-            document.getElementById('aa651cf1eb824e6d8d2a29402f442349'), 'white', {renderer: 'canvas'});
-        var option_aa651cf1eb824e6d8d2a29402f442349 = {
+        var chart_d47607a37e604c05b5ec5fcb9d84d56b = echarts.init(
+            document.getElementById('d47607a37e604c05b5ec5fcb9d84d56b'), 'white', {renderer: 'canvas'});
+        var option_d47607a37e604c05b5ec5fcb9d84d56b = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -568,10 +580,15 @@
                 "axisPointer": {
                     "type": "line"
                 },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
                 "textStyle": {
                     "fontSize": 14
                 },
-                "borderWidth": 0
+                "borderWidth": 0,
+                "padding": 5
             },
             "itemStyle": {
                 "borderColor": "#aaa",
@@ -601,10 +618,15 @@
         "axisPointer": {
             "type": "line"
         },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
         "textStyle": {
             "fontSize": 14
         },
-        "borderWidth": 0
+        "borderWidth": 0,
+        "padding": 5
     },
     "title": [
         {
@@ -614,7 +636,7 @@
         }
     ]
 };
-        chart_aa651cf1eb824e6d8d2a29402f442349.setOption(option_aa651cf1eb824e6d8d2a29402f442349);
+        chart_d47607a37e604c05b5ec5fcb9d84d56b.setOption(option_d47607a37e604c05b5ec5fcb9d84d56b);
     </script>
 </body>
 </html>

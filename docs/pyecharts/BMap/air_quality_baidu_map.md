@@ -5,6 +5,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import pyecharts.options as opts
 from pyecharts.charts import BMap
 
@@ -528,7 +530,6 @@ def convert_data():
     )
     .render("air_quality_baidu_map.html")
 )
-
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/BMap/air_quality_baidu_map.html"></iframe>

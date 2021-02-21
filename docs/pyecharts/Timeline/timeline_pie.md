@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 from pyecharts import options as opts
 from pyecharts.charts import Pie, Timeline
 from pyecharts.faker import Faker
@@ -21,7 +23,6 @@ for i in range(2015, 2020):
     )
     tl.add(pie, "{}年".format(i))
 tl.render("timeline_pie.html")
-
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Timeline/timeline_pie.html"></iframe>

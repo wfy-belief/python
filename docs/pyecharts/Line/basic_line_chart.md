@@ -2,15 +2,15 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import pyecharts.options as opts
 from pyecharts.charts import Line
 
 """
 Gallery 使用 pyecharts 1.1.0
-参考地址: https://echarts.baidu.com/examples/editor.html?c=line-simple
-
+参考地址: https://echarts.apache.org/examples/editor.html?c=line-simple
 目前无法实现的功能:
-
 暂无
 """
 
@@ -39,9 +39,7 @@ y_data = [820, 932, 901, 934, 1290, 1330, 1320]
         label_opts=opts.LabelOpts(is_show=False),
     )
     .render("basic_line_chart.html")
-)
-
-```
+)```
 
 <iframe width="100%" height="800px" src="/pyecharts/Line/basic_line_chart.html"></iframe>
 

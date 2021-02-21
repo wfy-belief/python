@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import random
 
 from pyecharts import options as opts
@@ -32,7 +34,6 @@ for _ in range(10):
 bar3d.set_global_opts(title_opts=opts.TitleOpts("Bar3D-堆叠柱状图示例"))
 bar3d.set_series_opts(**{"stack": "stack"})
 bar3d.render("bar3d_stack.html")
-
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Bar3D/bar3d_stack.html"></iframe>

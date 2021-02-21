@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 from pyecharts import options as opts
 from pyecharts.charts import Bar
 
@@ -23,7 +25,7 @@ c = (
     )
     .add_yaxis(
         series_name="",
-        yaxis_data=[],
+        y_axis=[],
         encode={"x": "amount", "y": "product"},
         label_opts=opts.LabelOpts(is_show=False),
     )
@@ -42,9 +44,7 @@ c = (
         ),
     )
     .render("dataset_bar_1.html")
-)
-
-```
+)```
 
 <iframe width="100%" height="800px" src="/pyecharts/Dataset/dataset_bar_1.html"></iframe>
 

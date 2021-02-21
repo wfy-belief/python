@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import math
 
 import pyecharts.options as opts
@@ -52,7 +54,6 @@ for t in range(0, 25000):
     )
     .render("line3d_rectangular_projection.html")
 )
-
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Line3D/line3d_rectangular_projection.html"></iframe>

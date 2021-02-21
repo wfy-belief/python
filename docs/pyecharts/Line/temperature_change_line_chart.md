@@ -2,15 +2,15 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import pyecharts.options as opts
 from pyecharts.charts import Line
 
 """
 Gallery 使用 pyecharts 1.1.0
-参考地址: https://www.echartsjs.com/examples/editor.html?c=line-marker
-
+参考地址: https://echarts.apache.org/examples/editor.html?c=line-marker
 目前无法实现的功能:
-
 1、最低气温的最高值暂时无法和 Echarts 的示例完全复刻
 """
 
@@ -20,7 +20,7 @@ low_temperature = [1, -2, 2, 5, 3, 2, 0]
 
 
 (
-    Line(init_opts=opts.InitOpts(width="1600px", height="800px"))
+    Line()
     .add_xaxis(xaxis_data=week_name_list)
     .add_yaxis(
         series_name="最高气温",
@@ -56,9 +56,7 @@ low_temperature = [1, -2, 2, 5, 3, 2, 0]
         xaxis_opts=opts.AxisOpts(type_="category", boundary_gap=False),
     )
     .render("temperature_change_line_chart.html")
-)
-
-```
+)```
 
 <iframe width="100%" height="800px" src="/pyecharts/Line/temperature_change_line_chart.html"></iframe>
 

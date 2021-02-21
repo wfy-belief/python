@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 from pyecharts import options as opts
 from pyecharts.charts import Radar
 
@@ -28,7 +30,6 @@ c = (
     )
     .render("radar_selected_mode.html")
 )
-
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Radar/radar_selected_mode.html"></iframe>

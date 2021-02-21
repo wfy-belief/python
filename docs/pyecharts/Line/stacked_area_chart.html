@@ -1,17 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
+
+<link rel="icon" href="https://cdn.jsdelivr.net/gh/wfy-belief/PicGo-images/img/favicon.png">
+<script>
+        try {
+            top.location.hostname;
+            if (top.location.hostname != window.location.hostname) {
+                top.location.href = window.location.href;
+            }
+        } catch (e) {
+            top.location.href = window.location.href;
+        }
+    </script>
+<meta charset="UTF-8">
     <title>Awesome-pyecharts</title>
-            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+            <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/echarts.min.js"></script>
 
 </head>
 <body>
-    <div id="87fcd93a060e45a2b0bff6a12afa04f2" class="chart-container" style="width:900px; height:500px;"></div>
+    <div id="121c1d87a7ed451bb0fc2f5c7b447079" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_87fcd93a060e45a2b0bff6a12afa04f2 = echarts.init(
-            document.getElementById('87fcd93a060e45a2b0bff6a12afa04f2'), 'white', {renderer: 'canvas'});
-        var option_87fcd93a060e45a2b0bff6a12afa04f2 = {
+        var chart_121c1d87a7ed451bb0fc2f5c7b447079 = echarts.init(
+            document.getElementById('121c1d87a7ed451bb0fc2f5c7b447079'), 'white', {renderer: 'canvas'});
+        var option_121c1d87a7ed451bb0fc2f5c7b447079 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -54,6 +66,7 @@
             "symbolSize": 4,
             "showSymbol": true,
             "smooth": false,
+            "clip": true,
             "step": false,
             "stack": "\u603b\u91cf",
             "data": [
@@ -112,6 +125,7 @@
             "symbolSize": 4,
             "showSymbol": true,
             "smooth": false,
+            "clip": true,
             "step": false,
             "stack": "\u603b\u91cf",
             "data": [
@@ -170,6 +184,7 @@
             "symbolSize": 4,
             "showSymbol": true,
             "smooth": false,
+            "clip": true,
             "step": false,
             "stack": "\u603b\u91cf",
             "data": [
@@ -228,6 +243,7 @@
             "symbolSize": 4,
             "showSymbol": true,
             "smooth": false,
+            "clip": true,
             "step": false,
             "stack": "\u603b\u91cf",
             "data": [
@@ -286,6 +302,7 @@
             "symbolSize": 4,
             "showSymbol": true,
             "smooth": false,
+            "clip": true,
             "step": false,
             "stack": "\u603b\u91cf",
             "data": [
@@ -368,10 +385,15 @@
         "axisPointer": {
             "type": "cross"
         },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
         "textStyle": {
             "fontSize": 14
         },
-        "borderWidth": 0
+        "borderWidth": 0,
+        "padding": 5
     },
     "xAxis": [
         {
@@ -444,7 +466,7 @@
         }
     ]
 };
-        chart_87fcd93a060e45a2b0bff6a12afa04f2.setOption(option_87fcd93a060e45a2b0bff6a12afa04f2);
+        chart_121c1d87a7ed451bb0fc2f5c7b447079.setOption(option_121c1d87a7ed451bb0fc2f5c7b447079);
     </script>
 </body>
 </html>

@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import pyecharts.options as opts
 from pyecharts.charts import WordCloud
 
@@ -162,7 +164,6 @@ data = [
     )
     .render("basic_wordcloud.html")
 )
-
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/WordCloud/basic_wordcloud.html"></iframe>

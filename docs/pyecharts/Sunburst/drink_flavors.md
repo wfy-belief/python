@@ -2,12 +2,14 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 from pyecharts.charts import Sunburst
 from pyecharts import options as opts
 
 """
 Gallery 使用 pyecharts 1.2.1
-参考地址: https://www.echartsjs.com/examples/editor.html?c=sunburst-simple
+参考地址: https://echarts.apache.org/examples/editor.html?c=sunburst-simple
 
 目前无法实现的功能:
 
@@ -111,7 +113,8 @@ data = [
         ],
     },
     {
-        "name": "Sour/\nFermented",
+        "name": "Sour/
+Fermented",
         "itemStyle": {"color": "#ebb40f"},
         "children": [
             {
@@ -151,7 +154,8 @@ data = [
                 ],
             },
             {
-                "name": "Alcohol/\nFremented",
+                "name": "Alcohol/
+Fremented",
                 "itemStyle": {"color": "#b09733"},
                 "children": [
                     {"name": "Winey", "value": 1, "itemStyle": {"color": "#8f1c53"}},
@@ -167,13 +171,15 @@ data = [
         ],
     },
     {
-        "name": "Green/\nVegetative",
+        "name": "Green/
+Vegetative",
         "itemStyle": {"color": "#187a2f"},
         "children": [
             {"name": "Olive Oil", "value": 1, "itemStyle": {"color": "#a2b029"}},
             {"name": "Raw", "value": 1, "itemStyle": {"color": "#718933"}},
             {
-                "name": "Green/\nVegetative",
+                "name": "Green/
+Vegetative",
                 "itemStyle": {"color": "#3aa255"},
                 "children": [
                     {
@@ -315,7 +321,8 @@ data = [
         ],
     },
     {
-        "name": "Nutty/\nCocoa",
+        "name": "Nutty/
+Cocoa",
         "itemStyle": {"color": "#a87b64"},
         "children": [
             {
@@ -403,9 +410,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Sunburst-官方示例"))
     .set_series_opts(label_opts=opts.LabelOpts(formatter="{b}"))
     .render("drink_flavors.html")
-)
-
-```
+)```
 
 <iframe width="100%" height="800px" src="/pyecharts/Sunburst/drink_flavors.html"></iframe>
 

@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 from pyecharts import options as opts
 from pyecharts.charts import Bar, Timeline
 from pyecharts.commons.utils import JsCode
@@ -57,7 +59,6 @@ for i in range(2015, 2020):
     )
     tl.add(bar, "{}年".format(i))
 tl.render("timeline_bar_with_graphic.html")
-
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Timeline/timeline_bar_with_graphic.html"></iframe>

@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import random
 
 from pyecharts import options as opts
@@ -14,7 +16,6 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Polar-Scatter0"))
     .render("polar_scatter_0.html")
 )
-
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Polar/polar_scatter_0.html"></iframe>

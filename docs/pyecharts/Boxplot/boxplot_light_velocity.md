@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import pyecharts.options as opts
 from pyecharts.charts import Grid, Boxplot, Scatter
 
@@ -156,7 +158,8 @@ scatter = (
         title_opts=opts.TitleOpts(
             pos_left="10%",
             pos_top="90%",
-            title="upper: Q3 + 1.5 * IQR \nlower: Q1 - 1.5 * IQR",
+            title="upper: Q3 + 1.5 * IQR 
+lower: Q1 - 1.5 * IQR",
             title_textstyle_opts=opts.TextStyleOpts(
                 border_color="#999", border_width=1, font_size=14
             ),
@@ -169,7 +172,7 @@ scatter = (
 )
 
 grid = (
-    Grid(init_opts=opts.InitOpts(width="1600px", height="1000px"))
+    Grid()
     .add(
         box_plot,
         grid_opts=opts.GridOpts(pos_left="10%", pos_right="10%", pos_bottom="15%"),
@@ -180,7 +183,6 @@ grid = (
     )
     .render("boxplot_light_velocity.html")
 )
-
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Boxplot/boxplot_light_velocity.html"></iframe>

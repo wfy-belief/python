@@ -5,6 +5,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import json
 
 from pyecharts.charts import BMap
@@ -211,7 +213,6 @@ c = (
     )
     .render("bmap_custom.html")
 )
-
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/BMap/bmap_custom.html"></iframe>

@@ -2,16 +2,16 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import math
 import pyecharts.options as opts
 from pyecharts.charts import Polar
 
 """
 Gallery 使用 pyecharts 1.1.0
-参考地址: https://www.echartsjs.com/examples/editor.html?c=line-polar2
-
+参考地址: https://echarts.apache.org/examples/editor.html?c=line-polar2
 目前无法实现的功能:
-
 1、赞无
 """
 
@@ -23,7 +23,7 @@ for i in range(0, 360 + 1):
     data.append([r, i])
 
 (
-    Polar(init_opts=opts.InitOpts(width="1600px", height="800px"))
+    Polar()
     .add(
         series_name="line",
         data=data,
@@ -41,9 +41,7 @@ for i in range(0, 360 + 1):
         title_opts=opts.TitleOpts(title="极坐标双数值轴"),
     )
     .render("two_value_axes_in_polar_2.html")
-)
-
-```
+)```
 
 <iframe width="100%" height="800px" src="/pyecharts/Polar/two_value_axes_in_polar_2.html"></iframe>
 

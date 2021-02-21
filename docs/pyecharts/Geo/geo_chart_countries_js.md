@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 from pyecharts import options as opts
 from pyecharts.charts import Geo
 from pyecharts.datasets import register_url
@@ -20,7 +22,6 @@ geo = (
     .set_global_opts(title_opts=opts.TitleOpts(title="中国"))
     .render("geo_chart_countries_js.html")
 )
-
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Geo/geo_chart_countries_js.html"></iframe>

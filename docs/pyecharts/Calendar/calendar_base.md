@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import datetime
 import random
 
@@ -32,7 +34,6 @@ c = (
     )
     .render("calendar_base.html")
 )
-
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Calendar/calendar_base.html"></iframe>

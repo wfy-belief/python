@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import json
 
 from pyecharts import options as opts
@@ -39,7 +41,6 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="TreeMap-Levels-配置"))
     .render("treemap_levels.html")
 )
-
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Treemap/treemap_levels.html"></iframe>

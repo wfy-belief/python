@@ -2,15 +2,15 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import pyecharts.options as opts
 from pyecharts.charts import Parallel
 
 """
 Gallery 使用 pyecharts 1.1.0
-参考地址: https://echarts.baidu.com/examples/editor.html?c=parallel-simple
-
+参考地址: https://echarts.apache.org/examples/editor.html?c=parallel-simple
 目前无法实现的功能:
-
 1、
 """
 
@@ -30,7 +30,7 @@ data = [[12.99, 100, 82, "Good"], [9.99, 80, 77, "OK"], [20, 120, 60, "Excellent
 
 
 (
-    Parallel(init_opts=opts.InitOpts(width="1400px", height="800px"))
+    Parallel()
     .add_schema(schema=parallel_axis)
     .add(
         series_name="",
@@ -38,9 +38,7 @@ data = [[12.99, 100, 82, "Good"], [9.99, 80, 77, "OK"], [20, 120, 60, "Excellent
         linestyle_opts=opts.LineStyleOpts(width=4, opacity=0.5),
     )
     .render("basic_parallel.html")
-)
-
-```
+)```
 
 <iframe width="100%" height="800px" src="/pyecharts/Parallel/basic_parallel.html"></iframe>
 

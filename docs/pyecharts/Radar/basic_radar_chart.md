@@ -2,12 +2,14 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import pyecharts.options as opts
 from pyecharts.charts import Radar
 
 """
 Gallery 使用 pyecharts 1.1.0
-参考地址: https://echarts.baidu.com/examples/editor.html?c=radar
+参考地址: https://echarts.apache.org/examples/editor.html?c=radar
 
 目前无法实现的功能:
 
@@ -17,7 +19,7 @@ v1 = [[4300, 10000, 28000, 35000, 50000, 19000]]
 v2 = [[5000, 14000, 28000, 31000, 42000, 21000]]
 
 (
-    Radar(init_opts=opts.InitOpts(width="1280px", height="720px", bg_color="#CCCCCC"))
+    Radar(init_opts=opts.InitOpts(bg_color="#CCCCCC"))
     .add_schema(
         schema=[
             opts.RadarIndicatorItem(name="销售（sales）", max_=6500),
@@ -47,9 +49,7 @@ v2 = [[5000, 14000, 28000, 31000, 42000, 21000]]
         title_opts=opts.TitleOpts(title="基础雷达图"), legend_opts=opts.LegendOpts()
     )
     .render("basic_radar_chart.html")
-)
-
-```
+)```
 
 <iframe width="100%" height="800px" src="/pyecharts/Radar/basic_radar_chart.html"></iframe>
 

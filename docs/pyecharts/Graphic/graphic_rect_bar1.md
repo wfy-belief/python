@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 from pyecharts import options as opts
 from pyecharts.charts import Bar
 from pyecharts.commons.utils import JsCode
@@ -42,7 +44,7 @@ c = (
                                 "['横轴表示数据类别',"
                                 "'纵轴表示数值的值',"
                                 "'这个文本块可以放在图中各',"
-                                "'种位置'].join('\\n')"
+                                "'种位置'].join('\n')"
                             ),
                             font="14px Microsoft YaHei",
                             graphic_basicstyle_opts=opts.GraphicBasicStyleOpts(
@@ -56,7 +58,6 @@ c = (
     )
     .render("graphic_rect_bar1.html")
 )
-
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Graphic/graphic_rect_bar1.html"></iframe>

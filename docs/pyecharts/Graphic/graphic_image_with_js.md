@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 from pyecharts import options as opts
 from pyecharts.charts import Bar, Grid
 from pyecharts.faker import Faker
@@ -19,7 +21,7 @@ bar = (
                     id_="logo", right=20, top=20, z=-10, bounding="raw", origin=[75, 75]
                 ),
                 graphic_imagestyle_opts=opts.GraphicImageStyleOpts(
-                    image="https://cdn.jsdelivr.net/gh/wfy-belief/python/docs/pyecharts/Graphic/favicon.png",
+                    image="https://echarts.apache.org/zh/images/favicon.png",
                     width=150,
                     height=150,
                     opacity=0.4,
@@ -48,9 +50,7 @@ c = (
     """
     )
     .render("graphic_image_with_js.html")
-)
-
-```
+)```
 
 <iframe width="100%" height="800px" src="/pyecharts/Graphic/graphic_image_with_js.html"></iframe>
 

@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 from pyecharts import options as opts
 from pyecharts.charts import Bar, Grid, Line
 
@@ -83,7 +85,6 @@ bar.overlap(line)
 grid = Grid()
 grid.add(bar, opts.GridOpts(pos_left="5%", pos_right="20%"), is_control_axis_index=True)
 grid.render("grid_multi_yaxis.html")
-
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Grid/grid_multi_yaxis.html"></iframe>

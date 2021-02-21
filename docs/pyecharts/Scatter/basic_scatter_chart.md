@@ -2,12 +2,14 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import pyecharts.options as opts
 from pyecharts.charts import Scatter
 
 """
 Gallery 使用 pyecharts 1.1.0
-参考地址: https://echarts.baidu.com/examples/editor.html?c=scatter-simple
+参考地址: https://echarts.apache.org/examples/editor.html?c=scatter-simple
 
 目前无法实现的功能:
 
@@ -32,7 +34,7 @@ x_data = [d[0] for d in data]
 y_data = [d[1] for d in data]
 
 (
-    Scatter(init_opts=opts.InitOpts(width="1600px", height="1000px"))
+    Scatter()
     .add_xaxis(xaxis_data=x_data)
     .add_yaxis(
         series_name="",
@@ -53,9 +55,7 @@ y_data = [d[1] for d in data]
         tooltip_opts=opts.TooltipOpts(is_show=False),
     )
     .render("basic_scatter_chart.html")
-)
-
-```
+)```
 
 <iframe width="100%" height="800px" src="/pyecharts/Scatter/basic_scatter_chart.html"></iframe>
 

@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 from pyecharts import options as opts
 from pyecharts.charts import Bar, Grid, Line
 from pyecharts.faker import Faker
@@ -30,7 +32,6 @@ grid = (
     .add(line, grid_opts=opts.GridOpts(pos_top="60%"))
     .render("grid_vertical.html")
 )
-
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Grid/grid_vertical.html"></iframe>

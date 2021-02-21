@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 from pyecharts import options as opts
 from pyecharts.charts import Pie
 from pyecharts.faker import Faker
@@ -14,7 +16,9 @@ c = (
         radius=["40%", "55%"],
         label_opts=opts.LabelOpts(
             position="outside",
-            formatter="{a|{a}}{abg|}\n{hr|}\n {b|{b}: }{c}  {per|{d}%}  ",
+            formatter="{a|{a}}{abg|}
+{hr|}
+ {b|{b}: }{c}  {per|{d}%}  ",
             background_color="#eee",
             border_color="#aaa",
             border_width=1,
@@ -47,7 +51,6 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Pie-富文本示例"))
     .render("pie_rich_label.html")
 )
-
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Pie/pie_rich_label.html"></iframe>

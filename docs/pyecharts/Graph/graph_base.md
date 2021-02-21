@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 from pyecharts import options as opts
 from pyecharts.charts import Graph
 
@@ -25,7 +27,6 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Graph-基本示例"))
     .render("graph_base.html")
 )
-
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Graph/graph_base.html"></iframe>

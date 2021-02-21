@@ -2,15 +2,15 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import pyecharts.options as opts
 from pyecharts.charts import Pie
 
 """
 Gallery 使用 pyecharts 1.1.0
-参考地址: https://echarts.baidu.com/examples/editor.html?c=pie-doughnut
-
+参考地址: https://echarts.apache.org/examples/editor.html?c=pie-doughnut
 目前无法实现的功能:
-
 1、饼状图中间的图例名称暂时无法显示
 """
 
@@ -18,7 +18,7 @@ x_data = ["直接访问", "邮件营销", "联盟广告", "视频广告", "搜�
 y_data = [335, 310, 234, 135, 1548]
 
 (
-    Pie(init_opts=opts.InitOpts(width="1600px", height="1000px"))
+    Pie()
     .add(
         series_name="访问来源",
         data_pair=[list(z) for z in zip(x_data, y_data)],
@@ -33,9 +33,7 @@ y_data = [335, 310, 234, 135, 1548]
         # label_opts=opts.LabelOpts(formatter="{b}: {c}")
     )
     .render("doughnut_chart.html")
-)
-
-```
+)```
 
 <iframe width="100%" height="800px" src="/pyecharts/Pie/doughnut_chart.html"></iframe>
 

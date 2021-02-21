@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import json
 
 from pyecharts import options as opts
@@ -16,7 +18,6 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Tree-左右方向"))
     .render("tree_left_right.html")
 )
-
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Tree/tree_left_right.html"></iframe>

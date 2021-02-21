@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 from pyecharts import options as opts
 from pyecharts.charts import Bar
 from pyecharts.commons.utils import JsCode
@@ -31,7 +33,6 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Bar-渐变圆柱"))
     .render("bar_border_radius.html")
 )
-
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Bar/bar_border_radius.html"></iframe>

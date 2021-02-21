@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import ssl
 
 import pyecharts.options as opts
@@ -10,7 +12,7 @@ from pyecharts.datasets import register_url
 
 """
 Gallery 使用 pyecharts 1.1.0 和 echarts-china-cities-js
-参考地址: https://echarts.baidu.com/examples/editor.html?c=map-HK
+参考地址: https://echarts.apache.org/examples/editor.html?c=map-HK
 """
 ssl._create_default_https_context = ssl._create_unverified_context
 # 与 pyecharts 注册，当画香港地图的时候，用 echarts-china-cities-js
@@ -92,9 +94,7 @@ NAME_MAP_DATA = {
         ),
     )
     .render("population_density_of_HongKong_v2.html")
-)
-
-```
+)```
 
 <iframe width="100%" height="800px" src="/pyecharts/Map/population_density_of_HongKong_v2.html"></iframe>
 

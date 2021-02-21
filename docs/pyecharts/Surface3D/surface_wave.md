@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import math
 from typing import Union
 
@@ -10,7 +12,7 @@ from pyecharts.charts import Surface3D
 
 """
 Gallery 使用 pyecharts 1.1.0
-参考地址: https://echarts.baidu.com/examples/editor.html?c=surface-wave&gl=1
+参考地址: https://echarts.apache.org/examples/editor.html?c=surface-wave&gl=1
 
 目前无法实现的功能:
 
@@ -48,7 +50,7 @@ def surface3d_data():
 
 
 (
-    Surface3D(init_opts=opts.InitOpts(width="1600px", height="800px"))
+    Surface3D()
     .add(
         series_name="",
         shading="color",
@@ -78,9 +80,7 @@ def surface3d_data():
         )
     )
     .render("surface_wave.html")
-)
-
-```
+)```
 
 <iframe width="100%" height="800px" src="/pyecharts/Surface3D/surface_wave.html"></iframe>
 

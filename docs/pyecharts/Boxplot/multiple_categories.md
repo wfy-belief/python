@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import pyecharts.options as opts
 from pyecharts.charts import Boxplot
 from pyecharts.commons.utils import JsCode
@@ -691,7 +693,7 @@ data = [
 ]
 
 (
-    Boxplot(init_opts=opts.InitOpts(width="1600px", height="800px"))
+    Boxplot()
     .add_xaxis(xaxis_data=axis_data)
     .add_yaxis(
         series_name="category0",
@@ -767,7 +769,6 @@ data = [
     )
     .render("multiple_categories.html")
 )
-
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Boxplot/multiple_categories.html"></iframe>

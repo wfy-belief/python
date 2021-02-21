@@ -1,9 +1,11 @@
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 from pyecharts.charts import Sunburst
 from pyecharts import options as opts
 
 """
 Gallery 使用 pyecharts 1.2.1
-参考地址: https://www.echartsjs.com/examples/editor.html?c=sunburst-simple
+参考地址: https://echarts.apache.org/examples/editor.html?c=sunburst-simple
 
 目前无法实现的功能:
 

@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 from pyecharts.components import Image
 from pyecharts.options import ComponentTitleOpts
 
@@ -20,7 +22,6 @@ image.set_global_opts(
     title_opts=ComponentTitleOpts(title="Image-基本示例", subtitle="我是副标题支持换行哦")
 )
 image.render("image_base.html")
-
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Image/image_base.html"></iframe>

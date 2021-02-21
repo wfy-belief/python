@@ -1,17 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
+
+<link rel="icon" href="https://cdn.jsdelivr.net/gh/wfy-belief/PicGo-images/img/favicon.png">
+<script>
+        try {
+            top.location.hostname;
+            if (top.location.hostname != window.location.hostname) {
+                top.location.href = window.location.href;
+            }
+        } catch (e) {
+            top.location.href = window.location.href;
+        }
+    </script>
+<meta charset="UTF-8">
     <title>Awesome-pyecharts</title>
-            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+            <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/echarts.min.js"></script>
 
 </head>
 <body>
-    <div id="9bf5bf868ce043b895b07bf44ac3d72c" class="chart-container" style="width:900px; height:500px;"></div>
+    <div id="30a2f84269564abf8a7ebe65bef5a0f4" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_9bf5bf868ce043b895b07bf44ac3d72c = echarts.init(
-            document.getElementById('9bf5bf868ce043b895b07bf44ac3d72c'), 'white', {renderer: 'canvas'});
-        var option_9bf5bf868ce043b895b07bf44ac3d72c = {
+        var chart_30a2f84269564abf8a7ebe65bef5a0f4 = echarts.init(
+            document.getElementById('30a2f84269564abf8a7ebe65bef5a0f4'), 'white', {renderer: 'canvas'});
+        var option_30a2f84269564abf8a7ebe65bef5a0f4 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -140,10 +152,15 @@
         "axisPointer": {
             "type": "line"
         },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
         "textStyle": {
             "fontSize": 14
         },
-        "borderWidth": 0
+        "borderWidth": 0,
+        "padding": 5
     },
     "title": [
         {
@@ -153,7 +170,7 @@
         }
     ]
 };
-        chart_9bf5bf868ce043b895b07bf44ac3d72c.setOption(option_9bf5bf868ce043b895b07bf44ac3d72c);
+        chart_30a2f84269564abf8a7ebe65bef5a0f4.setOption(option_30a2f84269564abf8a7ebe65bef5a0f4);
     </script>
 </body>
 </html>

@@ -1,3 +1,5 @@
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 from pyecharts.charts import Bar
 from pyecharts.faker import Faker
 from pyecharts.globals import ThemeType

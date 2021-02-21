@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import pyecharts.options as opts
 from pyecharts.charts import Line
 
@@ -10,10 +12,8 @@ from pyecharts.commons.utils import JsCode
 
 """
 Gallery 使用 pyecharts 1.0.0
-参考地址: https://echarts.baidu.com/examples/editor.html?c=multiple-x-axis
-
+参考地址: https://echarts.apache.org/examples/editor.html?c=multiple-x-axis
 目前无法实现的功能:
-
 1、暂无
 """
 
@@ -23,7 +23,7 @@ js_formatter = """function (params) {
     }"""
 
 (
-    Line(init_opts=opts.InitOpts(width="1600px", height="800px"))
+    Line()
     .add_xaxis(
         xaxis_data=[
             "2016-1",
@@ -108,9 +108,7 @@ js_formatter = """function (params) {
         ),
     )
     .render("multiple_x_axes.html")
-)
-
-```
+)```
 
 <iframe width="100%" height="800px" src="/pyecharts/Line/multiple_x_axes.html"></iframe>
 

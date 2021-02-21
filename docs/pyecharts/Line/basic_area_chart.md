@@ -2,15 +2,15 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import pyecharts.options as opts
 from pyecharts.charts import Line
 
 """
 Gallery 使用 pyecharts 1.1.0
-参考地址: https://echarts.baidu.com/examples/editor.html?c=area-basic
-
+参考地址: https://echarts.apache.org/examples/editor.html?c=area-basic
 目前无法实现的功能:
-
 暂无
 """
 
@@ -40,9 +40,7 @@ y_data = [820, 932, 901, 934, 1290, 1330, 1320]
     )
     # 设置 boundary_gap 的时候一定要放在最后一个配置项里, 不然会被覆盖
     .render("basic_area_chart.html")
-)
-
-```
+)```
 
 <iframe width="100%" height="800px" src="/pyecharts/Line/basic_area_chart.html"></iframe>
 

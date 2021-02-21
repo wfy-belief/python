@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 from pyecharts import options as opts
 from pyecharts.charts import Bar, Page
 from pyecharts.faker import Collector, Faker
@@ -221,7 +223,6 @@ def theme_wonderland() -> Bar:
 
 
 Page().add(*[fn() for fn, _ in C.charts]).render("theme_example.html")
-
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Theme/theme_example.html"></iframe>

@@ -2,26 +2,26 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import pyecharts.options as opts
 from pyecharts.charts import Bar, Line
 
 """
 Gallery 使用 pyecharts 1.1.0
-参考地址: https://www.echartsjs.com/examples/editor.html?c=mix-line-bar
-
+参考地址: https://echarts.apache.org/examples/editor.html?c=mix-line-bar
 目前无法实现的功能:
-
 1、暂无
 """
 
 x_data = ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"]
 
 bar = (
-    Bar(init_opts=opts.InitOpts(width="1600px", height="800px"))
+    Bar()
     .add_xaxis(xaxis_data=x_data)
     .add_yaxis(
         series_name="蒸发量",
-        yaxis_data=[
+        y_axis=[
             2.0,
             4.9,
             7.0,
@@ -39,7 +39,7 @@ bar = (
     )
     .add_yaxis(
         series_name="降水量",
-        yaxis_data=[
+        y_axis=[
             2.6,
             5.9,
             9.0,
@@ -97,9 +97,7 @@ line = (
     )
 )
 
-bar.overlap(line).render("mixed_bar_and_line.html")
-
-```
+bar.overlap(line).render("mixed_bar_and_line.html")```
 
 <iframe width="100%" height="800px" src="/pyecharts/Bar/mixed_bar_and_line.html"></iframe>
 

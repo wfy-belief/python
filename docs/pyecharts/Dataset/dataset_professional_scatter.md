@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import json
 
 from pyecharts import options as opts
@@ -114,7 +116,7 @@ l2_2 = (
 )
 
 grid = (
-    Grid(init_opts=opts.InitOpts(width="1280px", height="960px"))
+    Grid(init_opts=opts.InitOpts(width="1200px", height="960px"))
     .add(
         chart=l1_1,
         grid_opts=opts.GridOpts(pos_right="57%", pos_bottom="57%"),
@@ -135,7 +137,6 @@ grid = (
     )
     .render("dataset_professional_scatter.html")
 )
-
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Dataset/dataset_professional_scatter.html"></iframe>

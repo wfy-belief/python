@@ -2,12 +2,14 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import pyecharts.options as opts
 from pyecharts.charts import Line
 
 """
 Gallery 使用 pyecharts 1.1.0
-参考地址:  https://echarts.baidu.com/examples/editor.html?c=area-rainfall
+参考地址:  https://echarts.apache.org/examples/editor.html?c=area-rainfall
 
 目前无法实现的功能:
 
@@ -9260,7 +9262,7 @@ y_data_rain_fall_amount = [
     0,
 ]
 (
-    Line(init_opts=opts.InitOpts(width="1680px", height="800px"))
+    Line()
     .add_xaxis(xaxis_data=x_data)
     .add_yaxis(
         series_name="流量",
@@ -9325,9 +9327,7 @@ y_data_rain_fall_amount = [
         axisline_opts=opts.AxisLineOpts(),
     )
     .render("rainfall.html")
-)
-
-```
+)```
 
 <iframe width="100%" height="800px" src="/pyecharts/Line/rainfall.html"></iframe>
 

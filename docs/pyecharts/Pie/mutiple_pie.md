@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 from pyecharts import options as opts
 from pyecharts.charts import Pie
 from pyecharts.commons.utils import JsCode
@@ -10,7 +12,7 @@ from pyecharts.commons.utils import JsCode
 fn = """
     function(params) {
         if(params.name == '其他')
-            return '\\n\\n\\n' + params.name + ' : ' + params.value + '%';
+            return '\n\n\n' + params.name + ' : ' + params.value + '%';
         return params.name + ' : ' + params.value + '%';
     }
     """
@@ -58,7 +60,6 @@ c = (
     )
     .render("mutiple_pie.html")
 )
-
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Pie/mutiple_pie.html"></iframe>

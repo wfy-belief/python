@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import requests
 from typing import List, Union
 
@@ -11,7 +13,7 @@ from pyecharts.charts import Kline, Line, Bar, Grid
 
 def get_data():
     response = requests.get(
-        url="https://echarts.baidu.com/examples/data/asset/data/stock-DJI.json"
+        url="https://echarts.apache.org/examples/data/asset/data/stock-DJI.json"
     )
     json_response = response.json()
     # 解析数据
@@ -23,10 +25,10 @@ def split_data(data):
     values = []
     volumes = []
 
-    for i in range(len(data)):
-        category_data.append(data[i][0])
-        values.append(data[i])
-        volumes.append([i, data[i][4], 1 if data[i][1] > data[i][2] else -1])
+    for i, tick in enumerate(data):
+        category_data.append(tick[0])
+        values.append(tick)
+        volumes.append([i, tick[4], 1 if tick[1] > tick[2] else -1])
     return {"categoryData": category_data, "values": values, "volumes": volumes}
 
 
@@ -155,7 +157,7 @@ def draw_charts():
         .add_xaxis(xaxis_data=chart_data["categoryData"])
         .add_yaxis(
             series_name="Volume",
-            yaxis_data=chart_data["volumes"],
+            y_axis=chart_data["volumes"],
             xaxis_index=1,
             yaxis_index=1,
             label_opts=opts.LabelOpts(is_show=False),
@@ -214,9 +216,7 @@ def draw_charts():
 
 if __name__ == "__main__":
     chart_data = get_data()
-    draw_charts()
-
-```
+    draw_charts()```
 
 <iframe width="100%" height="800px" src="/pyecharts/Candlestick/professional_kline_brush.html"></iframe>
 

@@ -1,3 +1,5 @@
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 from pyecharts import options as opts
 from pyecharts.charts import Bar
 
@@ -19,7 +21,7 @@ c = (
     )
     .add_yaxis(
         series_name="",
-        yaxis_data=[],
+        y_axis=[],
         encode={"x": "amount", "y": "product"},
         label_opts=opts.LabelOpts(is_show=False),
     )

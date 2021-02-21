@@ -1,12 +1,12 @@
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import pyecharts.options as opts
 from pyecharts.charts import Bar, Line
 
 """
 Gallery 使用 pyecharts 1.0.0
-参考地址: https://www.echartsjs.com/examples/editor.html?c=multiple-y-axis
-
+参考地址: https://echarts.apache.org/examples/editor.html?c=multiple-y-axis
 目前无法实现的功能:
-
 1、暂无
 """
 
@@ -48,12 +48,12 @@ bar = (
     .add_xaxis(xaxis_data=x_data)
     .add_yaxis(
         series_name="蒸发量",
-        yaxis_data=evaporation_capacity,
+        y_axis=evaporation_capacity,
         yaxis_index=0,
         color=colors[1],
     )
     .add_yaxis(
-        series_name="降水量", yaxis_data=rainfall_capacity, yaxis_index=1, color=colors[0]
+        series_name="降水量", y_axis=rainfall_capacity, yaxis_index=1, color=colors[0]
     )
     .extend_axis(
         yaxis=opts.AxisOpts(

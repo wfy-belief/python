@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 from pyecharts import options as opts
 from pyecharts.charts import WordCloud
 
@@ -265,7 +267,6 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="WordCloud-自定义文字样式"))
     .render("wordcloud_custom_font_style.html")
 )
-
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/WordCloud/wordcloud_custom_font_style.html"></iframe>

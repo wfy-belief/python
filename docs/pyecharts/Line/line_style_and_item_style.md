@@ -2,21 +2,21 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import pyecharts.options as opts
 from pyecharts.charts import Line
 
 """
 Gallery 使用 pyecharts 1.1.0
-参考地址: https://www.echartsjs.com/examples/editor.html?c=line-style
-
+参考地址: https://echarts.apache.org/examples/editor.html?c=line-style
 目前无法实现的功能:
-
 暂无
 """
 
 
 (
-    Line(init_opts=opts.InitOpts(width="1280px", height="720px"))
+    Line(init_opts=opts.InitOpts(width="1200px", height="720px"))
     .add_xaxis(xaxis_data=["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"])
     .add_yaxis(
         series_name="",
@@ -39,9 +39,7 @@ Gallery 使用 pyecharts 1.1.0
         tooltip_opts=opts.TooltipOpts(is_show=False),
     )
     .render("line_style_and_item_style.html")
-)
-
-```
+)```
 
 <iframe width="100%" height="800px" src="/pyecharts/Line/line_style_and_item_style.html"></iframe>
 

@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import pyecharts.options as opts
 from pyecharts.globals import ThemeType
 from pyecharts.commons.utils import JsCode
@@ -171,10 +173,8 @@ def get_year_chart(year: int):
         )
         .reversal_axis()
         .set_global_opts(
-            xaxis_opts=opts.AxisOpts(
-                axislabel_opts=opts.LabelOpts(is_show=False)),
-            yaxis_opts=opts.AxisOpts(
-                axislabel_opts=opts.LabelOpts(is_show=False)),
+            xaxis_opts=opts.AxisOpts(axislabel_opts=opts.LabelOpts(is_show=False)),
+            yaxis_opts=opts.AxisOpts(axislabel_opts=opts.LabelOpts(is_show=False)),
             tooltip_opts=opts.TooltipOpts(is_show=False),
             visualmap_opts=opts.VisualMapOpts(
                 is_calculable=True,
@@ -198,22 +198,18 @@ def get_year_chart(year: int):
                     ),
                     children=[
                         opts.GraphicRect(
-                            graphic_item=opts.GraphicItem(
-                                left="center", top="center", z=100),
-                            graphic_shape_opts=opts.GraphicShapeOpts(
-                                width=400, height=50),
+                            graphic_item=opts.GraphicItem(left="center", top="center", z=100),
+                            graphic_shape_opts=opts.GraphicShapeOpts(width=400, height=50),
                             graphic_basicstyle_opts=opts.GraphicBasicStyleOpts(
                                 fill="rgba(0,0,0,0.3)"
                             ),
                         ),
                         opts.GraphicText(
-                            graphic_item=opts.GraphicItem(
-                                left="center", top="center", z=100),
+                            graphic_item=opts.GraphicItem(left="center", top="center", z=100),
                             graphic_textstyle_opts=opts.GraphicTextStyleOpts(
                                 text=f"{str(year)} 年",
                                 font="bold 26px Microsoft YaHei",
-                                graphic_basicstyle_opts=opts.GraphicBasicStyleOpts(
-                                    fill="#fff"),
+                                graphic_basicstyle_opts=opts.GraphicBasicStyleOpts(fill="#fff"),
                             ),
                         ),
                     ],
@@ -265,8 +261,7 @@ def get_year_chart(year: int):
 # Draw Timeline
 time_list = [1980, 2000, 2005, 2010, 2015]
 timeline = Timeline(
-    init_opts=opts.InitOpts(
-        width="1200px", height="800px", theme=ThemeType.DARK)
+    init_opts=opts.InitOpts(width="1200px", height="800px", theme=ThemeType.DARK)
 )
 for y in time_list:
     g = get_year_chart(year=y)
@@ -285,9 +280,7 @@ timeline.add_schema(
     label_opts=opts.LabelOpts(is_show=True, color="#fff"),
 )
 
-timeline.render("china_gdp_from_1980.html")
-
-```
+timeline.render("china_gdp_from_1980.html")```
 
 <iframe width="100%" height="800px" src="/pyecharts/Map/china_gdp_from_1980.html"></iframe>
 

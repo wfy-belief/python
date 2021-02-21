@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import pyecharts.options as opts
 from pyecharts.charts import Line, Grid
 from pyecharts.commons.utils import JsCode
@@ -95,7 +97,6 @@ c = (
     )
     .render("beautiful_line_chart.html")
 )
-
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Line/beautiful_line_chart.html"></iframe>

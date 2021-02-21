@@ -2,6 +2,8 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import asyncio
 from aiohttp import TCPConnector, ClientSession
 
@@ -10,7 +12,7 @@ from pyecharts.charts import Sankey
 
 """
 Gallery 使用 pyecharts 1.1.0
-参考地址: https://echarts.baidu.com/examples/editor.html?c=sankey-energy
+参考地址: https://echarts.apache.org/examples/editor.html?c=sankey-energy
 
 目前无法实现的功能:
 
@@ -26,11 +28,11 @@ async def get_json_data(url: str) -> dict:
 
 # 获取官方的数据
 data = asyncio.run(
-    get_json_data(url="https://echarts.baidu.com/examples/data/asset/data/energy.json")
+    get_json_data(url="https://echarts.apache.org/examples/data/asset/data/energy.json")
 )
 
 (
-    Sankey(init_opts=opts.InitOpts(width="1600px", height="800px"))
+    Sankey()
     .add(
         series_name="",
         nodes=data["nodes"],
@@ -41,9 +43,7 @@ data = asyncio.run(
     )
     .set_global_opts(title_opts=opts.TitleOpts(title="Sankey Diagram"))
     .render("sankey_diagram.html")
-)
-
-```
+)```
 
 <iframe width="100%" height="800px" src="/pyecharts/Sankey/sankey_diagram.html"></iframe>
 

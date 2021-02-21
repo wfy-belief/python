@@ -2,11 +2,13 @@
 ## pyecharts 代码 / 效果
 
 ```python
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import pyecharts.options as opts
 from pyecharts.charts import Line, Grid
 
 """
-From Echarts Gallery: https://www.echartsjs.com/examples/zh/editor.html?c=grid-multiple
+From Echarts Gallery: https://echarts.apache.org/examples/zh/editor.html?c=grid-multiple
 """
 
 timeData = [
@@ -9351,9 +9353,7 @@ l2 = (
         grid_opts=opts.GridOpts(pos_left=50, pos_right=50, pos_top="55%", height="35%"),
     )
     .render("rainfall_and_water_flow.html")
-)
-
-```
+)```
 
 <iframe width="100%" height="800px" src="/pyecharts/Line/rainfall_and_water_flow.html"></iframe>
 

@@ -1,3 +1,5 @@
+from pyecharts.globals import CurrentConfig
+CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
 import asyncio
 from aiohttp import TCPConnector, ClientSession
 
@@ -6,7 +8,7 @@ from pyecharts.charts import Tree
 
 """
 Gallery 使用 pyecharts 1.1.0
-参考地址: https://echarts.baidu.com/examples/editor.html?c=tree-radial
+参考地址: https://echarts.apache.org/examples/editor.html?c=tree-radial
 
 目前无法实现的功能:
 
