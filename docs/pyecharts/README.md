@@ -2,14 +2,20 @@
 
 ## 前言
 
+- **<font color=#3b9a9c>2021.02.21:版本迭代至1.9.1，若干bug，欢迎指出</font>**
+  
 - **<font color=#3b9a9c>2020.12.16:部分代码出现问题，版本更新迭代，将会在假期进行逐步更新修复。</font>**
+  
   ```python
   from pyecharts.globals import CurrentConfig
   
   CurrentConfig.ONLINE_HOST = "https://cdn.jsdelivr.net/gh/pyecharts/pyecharts-assets@latest/assets/"
   ```
+  
 - **<font color=#3b9a9c>2020.08.15:全部内容重新适配完毕，耗时十五天。如有bug或者不足之处，将会更新修复。</font>**
+
 - **<font color=#3b9a9c>2020.08.13：该版本是在 `pyecharts 1.8.1`运行，所以1.7.1版本内容做了适配。区别是 Bar y 的参数更改为 `y_axis`(/pyecharts/CDN)</font>**
+
 - **<font color=#3b9a9c>2020.08.10：增加[CDN说明页](/pyecharts/CDN)</font>**
 
 - **<font color=#3b9a9c>2020.08.10：对于默认 `echarts.min.js` 加载缓慢问题，可以由如下方案</font>**
