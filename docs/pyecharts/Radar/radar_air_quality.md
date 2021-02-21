@@ -52,6 +52,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Radar-空气质量"))
     .render("radar_air_quality.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Radar/radar_air_quality.html"></iframe>

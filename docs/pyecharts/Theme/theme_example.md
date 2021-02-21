@@ -223,6 +223,7 @@ def theme_wonderland() -> Bar:
 
 
 Page().add(*[fn() for fn, _ in C.charts]).render("theme_example.html")
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Theme/theme_example.html"></iframe>

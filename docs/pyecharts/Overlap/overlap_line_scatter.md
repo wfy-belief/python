@@ -24,6 +24,7 @@ scatter = (
 )
 line.overlap(scatter)
 line.render("overlap_line_scatter.html")
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Overlap/overlap_line_scatter.html"></iframe>

@@ -9327,7 +9327,8 @@ y_data_rain_fall_amount = [
         axisline_opts=opts.AxisLineOpts(),
     )
     .render("rainfall.html")
-)```
+)
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/Line/rainfall.html"></iframe>
 

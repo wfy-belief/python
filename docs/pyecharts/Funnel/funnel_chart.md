@@ -30,7 +30,8 @@ data = [[x_data[i], y_data[i]] for i in range(len(x_data))]
     )
     .set_global_opts(title_opts=opts.TitleOpts(title="漏斗图", subtitle="纯属虚构"))
     .render("funnel_chart.html")
-)```
+)
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/Funnel/funnel_chart.html"></iframe>
 

@@ -18,6 +18,7 @@ c = (
     )
     .render("bar_datazoom_both.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Bar/bar_datazoom_both.html"></iframe>

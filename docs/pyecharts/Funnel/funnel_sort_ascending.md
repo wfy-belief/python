@@ -19,6 +19,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Funnel-Sort（ascending）"))
     .render("funnel_sort_ascending.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Funnel/funnel_sort_ascending.html"></iframe>

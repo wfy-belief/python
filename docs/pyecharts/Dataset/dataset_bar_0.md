@@ -26,7 +26,8 @@ c = (
         xaxis_opts=opts.AxisOpts(type_="category"),
     )
     .render("dataset_bar_0.html")
-)```
+)
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/Dataset/dataset_bar_0.html"></iframe>
 

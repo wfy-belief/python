@@ -17,6 +17,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Bar-堆叠数据（全部）"))
     .render("bar_stack0.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Bar/bar_stack0.html"></iframe>

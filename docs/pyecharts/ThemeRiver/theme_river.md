@@ -159,7 +159,8 @@ y_data = [
         tooltip_opts=opts.TooltipOpts(trigger="axis", axis_pointer_type="line")
     )
     .render("theme_river.html")
-)```
+)
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/ThemeRiver/theme_river.html"></iframe>
 

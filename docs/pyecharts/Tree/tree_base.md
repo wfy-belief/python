@@ -33,6 +33,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Tree-基本示例"))
     .render("tree_base.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Tree/tree_base.html"></iframe>

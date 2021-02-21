@@ -661,7 +661,8 @@ def draw_chart():
 
 if __name__ == "__main__":
     data = split_data(origin_data=echarts_data)
-    draw_chart()```
+    draw_chart()
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/Candlestick/professional_kline_chart.html"></iframe>
 

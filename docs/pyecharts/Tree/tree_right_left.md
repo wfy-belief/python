@@ -17,6 +17,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Tree-右左方向"))
     .render("tree_right_left.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Tree/tree_right_left.html"></iframe>

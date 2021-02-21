@@ -29,6 +29,7 @@ c = (
     )
     .render("graph_weibo.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Graph/graph_weibo.html"></iframe>

@@ -15,6 +15,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Line-阶梯图"))
     .render("line_step.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Line/line_step.html"></iframe>

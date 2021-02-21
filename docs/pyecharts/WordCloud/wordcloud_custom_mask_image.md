@@ -268,6 +268,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="WordCloud-自定义图片"))
     .render("wordcloud_custom_mask_image.html")
 )
+
 ```
 
 <h3><font color=red>该部分出现问题，等待官方修复后，再进行完善</font></h3>

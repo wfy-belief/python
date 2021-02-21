@@ -27,6 +27,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Graph-基本示例"))
     .render("graph_base.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Graph/graph_base.html"></iframe>

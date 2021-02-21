@@ -26,7 +26,8 @@ bar = (
     .add_yaxis(series_name="支出", y_axis=y_out, stack="总量")
     .set_global_opts(yaxis_opts=opts.AxisOpts(type_="value"))
     .render("bar_waterfall_plot.html")
-)```
+)
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/Bar/bar_waterfall_plot.html"></iframe>
 

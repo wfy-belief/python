@@ -49,7 +49,8 @@ v2 = [[5000, 14000, 28000, 31000, 42000, 21000]]
         title_opts=opts.TitleOpts(title="基础雷达图"), legend_opts=opts.LegendOpts()
     )
     .render("basic_radar_chart.html")
-)```
+)
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/Radar/basic_radar_chart.html"></iframe>
 

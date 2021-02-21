@@ -32,6 +32,7 @@ grid = (
     .add(line, grid_opts=opts.GridOpts(pos_top="60%"))
     .render("grid_vertical.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Grid/grid_vertical.html"></iframe>

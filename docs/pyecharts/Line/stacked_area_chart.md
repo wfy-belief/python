@@ -68,7 +68,8 @@ y_data = [820, 932, 901, 934, 1290, 1330, 1320]
         xaxis_opts=opts.AxisOpts(type_="category", boundary_gap=False),
     )
     .render("stacked_area_chart.html")
-)```
+)
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/Line/stacked_area_chart.html"></iframe>
 

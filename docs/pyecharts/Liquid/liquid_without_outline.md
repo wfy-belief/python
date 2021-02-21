@@ -13,6 +13,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Liquid-无边框"))
     .render("liquid_without_outline.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Liquid/liquid_without_outline.html"></iframe>

@@ -40,7 +40,8 @@ y_data = [820, 932, 901, 934, 1290, 1330, 1320]
         label_opts=opts.LabelOpts(is_show=False),
     )
     .render("smoothed_line_chart.html")
-)```
+)
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/Line/smoothed_line_chart.html"></iframe>
 

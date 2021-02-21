@@ -16,6 +16,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Line-面积图"))
     .render("line_area_style.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Line/line_area_style.html"></iframe>

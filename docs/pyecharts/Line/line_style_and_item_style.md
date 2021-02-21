@@ -39,7 +39,8 @@ Gallery 使用 pyecharts 1.1.0
         tooltip_opts=opts.TooltipOpts(is_show=False),
     )
     .render("line_style_and_item_style.html")
-)```
+)
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/Line/line_style_and_item_style.html"></iframe>
 

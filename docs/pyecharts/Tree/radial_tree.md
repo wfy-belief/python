@@ -46,7 +46,8 @@ data = asyncio.run(
         tooltip_opts=opts.TooltipOpts(trigger="item", trigger_on="mousemove")
     )
     .render("radial_tree.html")
-)```
+)
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/Tree/radial_tree.html"></iframe>
 

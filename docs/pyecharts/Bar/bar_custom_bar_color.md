@@ -41,6 +41,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Bar-自定义柱状颜色"))
     .render("bar_custom_bar_color.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Bar/bar_custom_bar_color.html"></iframe>

@@ -25,6 +25,7 @@ c = (
     )
     .render("bmap_heatmap.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/BMap/bmap_heatmap.html"></iframe>

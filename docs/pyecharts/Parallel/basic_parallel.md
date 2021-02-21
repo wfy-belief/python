@@ -38,7 +38,8 @@ data = [[12.99, 100, 82, "Good"], [9.99, 80, 77, "OK"], [20, 120, 60, "Excellent
         linestyle_opts=opts.LineStyleOpts(width=4, opacity=0.5),
     )
     .render("basic_parallel.html")
-)```
+)
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/Parallel/basic_parallel.html"></iframe>
 

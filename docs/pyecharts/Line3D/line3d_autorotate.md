@@ -36,6 +36,7 @@ c = (
     )
     .render("line3d_autorotate.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Line3D/line3d_autorotate.html"></iframe>

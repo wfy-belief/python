@@ -33,6 +33,7 @@ bar = (
 line = Line().add_xaxis(Faker.months).add_yaxis("平均温度", v3, yaxis_index=1)
 bar.overlap(line)
 bar.render("overlap_bar_line.html")
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Overlap/overlap_bar_line.html"></iframe>

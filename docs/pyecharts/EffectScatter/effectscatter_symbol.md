@@ -16,6 +16,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="EffectScatter-不同Symbol"))
     .render("effectscatter_symbol.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/EffectScatter/effectscatter_symbol.html"></iframe>

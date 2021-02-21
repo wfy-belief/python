@@ -22,7 +22,8 @@ Gallery 使用 pyecharts 1.1.0
         tooltip_opts=opts.TooltipOpts(is_show=True, formatter="{a} <br/>{b} : {c}%"),
     )
     .render("gauge.html")
-)```
+)
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/Gauge/gauge.html"></iframe>
 

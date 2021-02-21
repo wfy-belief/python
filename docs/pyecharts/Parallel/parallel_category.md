@@ -46,6 +46,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Parallel-Category"))
     .render("parallel_category.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Parallel/parallel_category.html"></iframe>

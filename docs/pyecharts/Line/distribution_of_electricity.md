@@ -98,7 +98,8 @@ y_data = [
         )
     )
     .render("distribution_of_electricity.html")
-)```
+)
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/Line/distribution_of_electricity.html"></iframe>
 

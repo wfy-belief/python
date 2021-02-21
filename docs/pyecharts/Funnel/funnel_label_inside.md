@@ -19,6 +19,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Funnel-Label（inside)"))
     .render("funnel_label_inside.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Funnel/funnel_label_inside.html"></iframe>

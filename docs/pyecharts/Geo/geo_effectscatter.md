@@ -21,6 +21,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Geo-EffectScatter"))
     .render("geo_effectscatter.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Geo/geo_effectscatter.html"></iframe>

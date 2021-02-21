@@ -34,6 +34,7 @@ c = (
     )
     .render("scatter_multi_dimension.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Scatter/scatter_multi_dimension.html"></iframe>

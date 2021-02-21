@@ -247,7 +247,8 @@ data = [[d[1], d[0], d[2] or "-"] for d in data]
         ),
     )
     .render("heatmap_on_cartesian.html")
-)```
+)
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/Heatmap/heatmap_on_cartesian.html"></iframe>
 

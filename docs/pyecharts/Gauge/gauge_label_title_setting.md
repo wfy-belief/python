@@ -19,6 +19,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Gauge-改变轮盘内的字体"))
     .render("gauge_label_title_setting.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Gauge/gauge_label_title_setting.html"></iframe>

@@ -203,6 +203,7 @@ def page_simple_layout():
 
 if __name__ == "__main__":
     page_simple_layout()
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Page/page_simple_layout.html"></iframe>

@@ -15,6 +15,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Map-不显示Label"))
     .render("map_without_label.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Map/map_without_label.html"></iframe>

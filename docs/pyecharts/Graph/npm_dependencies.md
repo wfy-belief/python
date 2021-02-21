@@ -62,7 +62,8 @@ edges = [
     )
     .set_global_opts(title_opts=opts.TitleOpts(title="NPM Dependencies"))
     .render("npm_dependencies.html")
-)```
+)
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/Graph/npm_dependencies.html"></iframe>
 

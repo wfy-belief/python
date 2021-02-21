@@ -28,6 +28,7 @@ c = (
     .set_series_opts(label_opts=opts.LabelOpts(formatter="{b}: {c}"))
     .render("pie_scroll_legend.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Pie/pie_scroll_legend.html"></iframe>

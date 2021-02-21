@@ -23,6 +23,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Polar-EffectScatter"))
     .render("polar_effectscatter.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Polar/polar_effectscatter.html"></iframe>

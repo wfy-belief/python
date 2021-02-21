@@ -37,6 +37,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Bar-直方图（颜色区分）"))
     .render("bar_histogram_color.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Bar/bar_histogram_color.html"></iframe>

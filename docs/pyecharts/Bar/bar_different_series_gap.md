@@ -17,6 +17,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Bar-不同系列柱间距离"))
     .render("bar_different_series_gap.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Bar/bar_different_series_gap.html"></iframe>

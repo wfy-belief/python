@@ -32,6 +32,7 @@ c = (
     )
     .render("map_globe_base.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/MapGlobe/map_globe_base.html"></iframe>

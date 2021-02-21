@@ -203,6 +203,7 @@ def page_draggable_layout():
 
 if __name__ == "__main__":
     page_draggable_layout()
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Page/page_draggable_layout.html"></iframe>

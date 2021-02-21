@@ -22,6 +22,7 @@ c = (
     )
     .render("map_china_cities.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Map/map_china_cities.html"></iframe>

@@ -30,7 +30,8 @@ c = (
         ],
     )
     .render("graphic_image.html")
-)```
+)
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/Graphic/graphic_image.html"></iframe>
 

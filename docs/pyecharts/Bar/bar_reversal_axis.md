@@ -18,6 +18,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Bar-翻转 XY 轴"))
     .render("bar_reversal_axis.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Bar/bar_reversal_axis.html"></iframe>

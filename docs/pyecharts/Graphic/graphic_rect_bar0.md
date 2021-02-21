@@ -54,6 +54,7 @@ c = (
     )
     .render("graphic_rect_bar0.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Graphic/graphic_rect_bar0.html"></iframe>

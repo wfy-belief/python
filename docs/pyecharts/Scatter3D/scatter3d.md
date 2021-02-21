@@ -125,7 +125,8 @@ data = [
         ]
     )
     .render("scatter3d.html")
-)```
+)
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/Scatter3D/scatter3d.html"></iframe>
 

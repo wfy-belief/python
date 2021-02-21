@@ -54,6 +54,7 @@ for t in range(0, 25000):
     )
     .render("line3d_rectangular_projection.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Line3D/line3d_rectangular_projection.html"></iframe>

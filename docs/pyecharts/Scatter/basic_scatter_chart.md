@@ -55,7 +55,8 @@ y_data = [d[1] for d in data]
         tooltip_opts=opts.TooltipOpts(is_show=False),
     )
     .render("basic_scatter_chart.html")
-)```
+)
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/Scatter/basic_scatter_chart.html"></iframe>
 

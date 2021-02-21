@@ -32,6 +32,7 @@ grid = (
     .add(geo, grid_opts=opts.GridOpts(pos_left="60%"))
     .render("grid_geo_bar.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Grid/grid_geo_bar.html"></iframe>

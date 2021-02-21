@@ -14,6 +14,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Liquid-Shape-Diamond"))
     .render("liquid_shape_diamond.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Liquid/liquid_shape_diamond.html"></iframe>

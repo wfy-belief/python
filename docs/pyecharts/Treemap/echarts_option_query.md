@@ -75,7 +75,8 @@ convert(source=data, target=tree_map_data, base_path="")
         ),
     )
     .render("echarts_option_query.html")
-)```
+)
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/Treemap/echarts_option_query.html"></iframe>
 

@@ -24,6 +24,7 @@ c = (
     )
     .render("gauge_color.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Gauge/gauge_color.html"></iframe>

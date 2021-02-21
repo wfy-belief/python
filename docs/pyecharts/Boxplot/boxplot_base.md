@@ -21,6 +21,7 @@ c.add_yaxis("A", c.prepare_data(v1))
 c.add_yaxis("B", c.prepare_data(v2))
 c.set_global_opts(title_opts=opts.TitleOpts(title="BoxPlot-基本示例"))
 c.render("boxplot_base.html")
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Boxplot/boxplot_base.html"></iframe>

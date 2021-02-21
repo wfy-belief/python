@@ -80,7 +80,8 @@ def surface3d_data():
         )
     )
     .render("surface_wave.html")
-)```
+)
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/Surface3D/surface_wave.html"></iframe>
 

@@ -26,6 +26,7 @@ c = (
     )
     .render("heatmap_with_label_show.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Heatmap/heatmap_with_label_show.html"></iframe>

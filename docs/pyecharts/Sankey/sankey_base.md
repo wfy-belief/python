@@ -34,6 +34,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Sankey-基本示例"))
     .render("sankey_base.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Sankey/sankey_base.html"></iframe>

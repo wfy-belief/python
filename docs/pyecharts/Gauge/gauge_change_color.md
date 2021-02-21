@@ -32,6 +32,7 @@ Gallery 使用 pyecharts 1.1.0
     )
     .render("gauge_change_color.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Gauge/gauge_change_color.html"></iframe>

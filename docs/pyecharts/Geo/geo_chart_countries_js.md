@@ -22,6 +22,7 @@ geo = (
     .set_global_opts(title_opts=opts.TitleOpts(title="中国"))
     .render("geo_chart_countries_js.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Geo/geo_chart_countries_js.html"></iframe>

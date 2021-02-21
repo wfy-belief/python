@@ -28,6 +28,7 @@ c = (
     )
     .render("line_areastyle_boundary_gap.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Line/line_areastyle_boundary_gap.html"></iframe>

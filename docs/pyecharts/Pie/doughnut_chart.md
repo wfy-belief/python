@@ -33,7 +33,8 @@ y_data = [335, 310, 234, 135, 1548]
         # label_opts=opts.LabelOpts(formatter="{b}: {c}")
     )
     .render("doughnut_chart.html")
-)```
+)
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/Pie/doughnut_chart.html"></iframe>
 

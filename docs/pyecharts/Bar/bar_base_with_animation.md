@@ -23,6 +23,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Bar-动画配置基本示例", subtitle="我是副标题"))
     .render("bar_base_with_animation.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Bar/bar_base_with_animation.html"></iframe>

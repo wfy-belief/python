@@ -30,6 +30,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Pie-玫瑰图示例"))
     .render("pie_rosetype.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Pie/pie_rosetype.html"></iframe>

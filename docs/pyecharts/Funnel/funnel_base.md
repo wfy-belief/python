@@ -14,6 +14,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Funnel-基本示例"))
     .render("funnel_base.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Funnel/funnel_base.html"></iframe>

@@ -20,6 +20,7 @@ c = (
     )
     .render("bar_yaxis_formatter.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Bar/bar_yaxis_formatter.html"></iframe>

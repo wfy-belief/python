@@ -142,7 +142,8 @@ map_data = [[y["coord"] for y in x] for x in data]
         geo_location_control_opts=opts.BMapGeoLocationControlOpts(),
     )
     .render("hiking_trail_in_hangzhou.html")
-)```
+)
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/BMap/hiking_trail_in_hangzhou.html"></iframe>
 

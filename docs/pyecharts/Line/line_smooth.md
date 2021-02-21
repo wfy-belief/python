@@ -16,6 +16,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Line-smooth"))
     .render("line_smooth.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Line/line_smooth.html"></iframe>

@@ -19,6 +19,7 @@ c = (
     )
     .render("effectscatter_splitline.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/EffectScatter/effectscatter_splitline.html"></iframe>

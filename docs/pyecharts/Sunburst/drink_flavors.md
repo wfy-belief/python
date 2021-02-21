@@ -410,7 +410,8 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Sunburst-官方示例"))
     .set_series_opts(label_opts=opts.LabelOpts(formatter="{b}"))
     .render("drink_flavors.html")
-)```
+)
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/Sunburst/drink_flavors.html"></iframe>
 

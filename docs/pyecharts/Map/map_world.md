@@ -18,6 +18,7 @@ c = (
     )
     .render("map_world.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Map/map_world.html"></iframe>

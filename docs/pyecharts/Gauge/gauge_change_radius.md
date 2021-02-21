@@ -13,6 +13,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Gauge-修改 Radius 为 50%"))
     .render("gauge_change_radius.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Gauge/gauge_change_radius.html"></iframe>

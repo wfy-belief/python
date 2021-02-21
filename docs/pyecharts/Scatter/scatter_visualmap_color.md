@@ -18,6 +18,7 @@ c = (
     )
     .render("scatter_visualmap_color.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Scatter/scatter_visualmap_color.html"></iframe>

@@ -61,7 +61,8 @@ sunburst = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Sunburst-基本示例"))
     .set_series_opts(label_opts=opts.LabelOpts(formatter="{b}"))
     .render("basic_sunburst.html")
-)```
+)
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/Sunburst/basic_sunburst.html"></iframe>
 

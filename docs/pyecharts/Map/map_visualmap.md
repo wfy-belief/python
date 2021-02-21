@@ -17,6 +17,7 @@ c = (
     )
     .render("map_visualmap.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Map/map_visualmap.html"></iframe>

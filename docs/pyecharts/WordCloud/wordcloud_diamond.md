@@ -37,6 +37,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="WordCloud-shape-diamond"))
     .render("wordcloud_diamond.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/WordCloud/wordcloud_diamond.html"></iframe>

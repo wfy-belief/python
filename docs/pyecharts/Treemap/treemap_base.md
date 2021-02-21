@@ -33,6 +33,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="TreeMap-基本示例"))
     .render("treemap_base.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Treemap/treemap_base.html"></iframe>

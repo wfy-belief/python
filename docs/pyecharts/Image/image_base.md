@@ -22,6 +22,7 @@ image.set_global_opts(
     title_opts=ComponentTitleOpts(title="Image-基本示例", subtitle="我是副标题支持换行哦")
 )
 image.render("image_base.html")
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Image/image_base.html"></iframe>

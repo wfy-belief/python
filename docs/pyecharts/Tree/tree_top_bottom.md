@@ -29,6 +29,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Tree-上下方向"))
     .render("tree_top_bottom.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Tree/tree_top_bottom.html"></iframe>

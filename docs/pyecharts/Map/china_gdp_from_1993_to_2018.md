@@ -1161,7 +1161,8 @@ if __name__ == "__main__":
         label_opts=opts.LabelOpts(is_show=True, color="#fff"),
     )
 
-    timeline.render("china_gdp_from_1993_to_2018.html")```
+    timeline.render("china_gdp_from_1993_to_2018.html")
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/Map/china_gdp_from_1993_to_2018.html"></iframe>
 

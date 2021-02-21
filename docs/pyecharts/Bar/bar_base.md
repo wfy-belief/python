@@ -17,6 +17,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Bar-基本示例", subtitle="我是副标题"))
     .render("bar_base.html")
 )
+
 ```
 
 <iframe width="100%" height="600px" src="/pyecharts/Bar/bar_base.html"></iframe>

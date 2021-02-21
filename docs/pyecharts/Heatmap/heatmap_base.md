@@ -21,6 +21,7 @@ c = (
     )
     .render("heatmap_base.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Heatmap/heatmap_base.html"></iframe>

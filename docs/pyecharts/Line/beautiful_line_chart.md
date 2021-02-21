@@ -97,6 +97,7 @@ c = (
     )
     .render("beautiful_line_chart.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Line/beautiful_line_chart.html"></iframe>

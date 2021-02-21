@@ -2146,7 +2146,8 @@ for y in range(2002, 2012):
 
 # 1.0.0 版本的 add_schema 暂时没有补上 return self 所以只能这么写着
 timeline.add_schema(is_auto_play=True, play_interval=1000)
-timeline.render("finance_indices_2002.html")```
+timeline.render("finance_indices_2002.html")
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/Bar/finance_indices_2002.html"></iframe>
 

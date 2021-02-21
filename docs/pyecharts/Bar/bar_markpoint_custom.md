@@ -24,6 +24,7 @@ c = (
     .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
     .render("bar_markpoint_custom.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Bar/bar_markpoint_custom.html"></iframe>

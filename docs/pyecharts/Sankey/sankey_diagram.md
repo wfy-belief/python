@@ -43,7 +43,8 @@ data = asyncio.run(
     )
     .set_global_opts(title_opts=opts.TitleOpts(title="Sankey Diagram"))
     .render("sankey_diagram.html")
-)```
+)
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/Sankey/sankey_diagram.html"></iframe>
 

@@ -37,7 +37,7 @@ def write_md_file(file_: str, content: str):
         r_str = fp.read()
         # 回到开头
         fp.seek(0)
-        result_str = re.sub(r'(```python)([\s\S]*?)(```)', rf'\1\n{content}\3', r_str)
+        result_str = re.sub(r'(```python)([\s\S]*?)(```)', rf'\1\n{content}\n\3', r_str)
         fp.write(result_str)
         fp.close()
 

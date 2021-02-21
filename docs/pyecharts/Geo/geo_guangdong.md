@@ -23,6 +23,7 @@ c = (
     )
     .render("geo_guangdong.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Geo/geo_guangdong.html"></iframe>

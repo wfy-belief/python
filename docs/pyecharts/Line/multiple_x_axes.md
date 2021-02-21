@@ -108,7 +108,8 @@ js_formatter = """function (params) {
         ),
     )
     .render("multiple_x_axes.html")
-)```
+)
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/Line/multiple_x_axes.html"></iframe>
 

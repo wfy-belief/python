@@ -15,6 +15,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Bar-直方图"))
     .render("bar_histogram.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Bar/bar_histogram.html"></iframe>

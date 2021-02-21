@@ -19,6 +19,7 @@ c = (
     )
     .render("scatter_visualmap_size.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Scatter/scatter_visualmap_size.html"></iframe>

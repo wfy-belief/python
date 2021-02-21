@@ -769,6 +769,7 @@ data = [
     )
     .render("multiple_categories.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Boxplot/multiple_categories.html"></iframe>

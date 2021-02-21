@@ -216,7 +216,8 @@ def draw_charts():
 
 if __name__ == "__main__":
     chart_data = get_data()
-    draw_charts()```
+    draw_charts()
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/Candlestick/professional_kline_brush.html"></iframe>
 

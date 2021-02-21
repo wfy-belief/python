@@ -530,6 +530,7 @@ def convert_data():
     )
     .render("air_quality_baidu_map.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/BMap/air_quality_baidu_map.html"></iframe>

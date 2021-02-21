@@ -164,6 +164,7 @@ data = [
     )
     .render("basic_wordcloud.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/WordCloud/basic_wordcloud.html"></iframe>

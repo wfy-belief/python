@@ -45,7 +45,8 @@ data_pair.sort(key=lambda x: x[1])
         label_opts=opts.LabelOpts(color="rgba(255, 255, 255, 0.3)"),
     )
     .render("customized_pie.html")
-)```
+)
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/Pie/customized_pie.html"></iframe>
 

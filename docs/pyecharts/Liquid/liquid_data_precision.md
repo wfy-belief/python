@@ -26,6 +26,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Liquid-数据精度"))
     .render("liquid_data_precision.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Liquid/liquid_data_precision.html"></iframe>

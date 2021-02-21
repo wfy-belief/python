@@ -280,7 +280,8 @@ timeline.add_schema(
     label_opts=opts.LabelOpts(is_show=True, color="#fff"),
 )
 
-timeline.render("china_gdp_from_1980.html")```
+timeline.render("china_gdp_from_1980.html")
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/Map/china_gdp_from_1980.html"></iframe>
 

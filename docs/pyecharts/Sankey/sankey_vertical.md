@@ -54,6 +54,7 @@ c = (
     )
     .render("sankey_vertical.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Sankey/sankey_vertical.html"></iframe>

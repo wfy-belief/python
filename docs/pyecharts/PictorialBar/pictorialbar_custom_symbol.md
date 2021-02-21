@@ -43,6 +43,7 @@ c = (
     )
     .render("pictorialbar_custom_symbol.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/PictorialBar/pictorialbar_custom_symbol.html"></iframe>

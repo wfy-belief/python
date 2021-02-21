@@ -80,6 +80,7 @@ c = (
     )
     .render("line_color_with_js_func.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Line/line_color_with_js_func.html"></iframe>

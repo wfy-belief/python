@@ -32,6 +32,7 @@ c = (
     )
     .render("line_yaxis_log.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Line/line_yaxis_log.html"></iframe>

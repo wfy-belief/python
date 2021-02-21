@@ -37,6 +37,7 @@ c = (
     )
     .render("pictorialbar_base.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/PictorialBar/pictorialbar_base.html"></iframe>

@@ -18,6 +18,7 @@ c = (
     )
     .render("geo_base.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Geo/geo_base.html"></iframe>

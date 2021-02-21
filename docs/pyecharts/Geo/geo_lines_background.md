@@ -33,6 +33,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Geo-Lines-background"))
     .render("geo_lines_background.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/

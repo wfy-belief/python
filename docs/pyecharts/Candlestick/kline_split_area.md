@@ -58,6 +58,7 @@ c = (
     )
     .render("kline_split_area.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Candlestick/kline_split_area.html"></iframe>

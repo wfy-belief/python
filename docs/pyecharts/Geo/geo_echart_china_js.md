@@ -22,6 +22,7 @@ geo = (
     .set_global_opts(title_opts=opts.TitleOpts(title="海淀区"))
     .render("geo_echart_china_js.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Geo/geo_echart_china_js.html"></iframe>

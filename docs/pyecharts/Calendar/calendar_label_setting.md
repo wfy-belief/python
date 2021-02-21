@@ -42,6 +42,7 @@ c = (
     )
     .render("calendar_label_setting.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Calendar/calendar_label_setting.html"></iframe>

@@ -47,7 +47,8 @@ y_data_05 = [1 / 2, 1 / 4, 1 / 8, 1 / 16, 1 / 32, 1 / 64, 1 / 128, 1 / 256, 1 / 
         ),
     )
     .render("log_axis.html")
-)```
+)
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/Line/log_axis.html"></iframe>
 

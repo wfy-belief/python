@@ -243,7 +243,8 @@ data = [[d[1], d[0], d[2]] for d in data]
         )
     )
     .render("bar3d_punch_card.html")
-)```
+)
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/Bar3D/bar3d_punch_card.html"></iframe>
 

@@ -97,7 +97,8 @@ line = (
     )
 )
 
-bar.overlap(line).render("mixed_bar_and_line.html")```
+bar.overlap(line).render("mixed_bar_and_line.html")
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/Bar/mixed_bar_and_line.html"></iframe>
 

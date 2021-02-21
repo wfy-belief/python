@@ -113,7 +113,8 @@ line = (
     )
 )
 
-bar.overlap(line).render("multiple_y_axes.html")```
+bar.overlap(line).render("multiple_y_axes.html")
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/Bar/multiple_y_axes.html"></iframe>
 

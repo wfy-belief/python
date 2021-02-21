@@ -213,6 +213,7 @@ c = (
     )
     .render("bmap_custom.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/BMap/bmap_custom.html"></iframe>

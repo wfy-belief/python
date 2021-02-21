@@ -31,6 +31,7 @@ l2 = Liquid().add(
 
 grid = Grid().add(l1, grid_opts=opts.GridOpts()).add(l2, grid_opts=opts.GridOpts())
 grid.render("multiple_liquid.html")
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Liquid/multiple_liquid.html"></iframe>

@@ -27,6 +27,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Graph-GraphNode-GraphLink"))
     .render("graph_with_options.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Graph/graph_with_options.html"></iframe>

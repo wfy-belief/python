@@ -40,6 +40,7 @@ c = (
     )
     .render("stack_bar_percent.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Bar/stack_bar_percent.html"></iframe>

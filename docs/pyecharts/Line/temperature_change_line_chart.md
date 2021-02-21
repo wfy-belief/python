@@ -56,7 +56,8 @@ low_temperature = [1, -2, 2, 5, 3, 2, 0]
         xaxis_opts=opts.AxisOpts(type_="category", boundary_gap=False),
     )
     .render("temperature_change_line_chart.html")
-)```
+)
+```
 
 <iframe width="100%" height="800px" src="/pyecharts/Line/temperature_change_line_chart.html"></iframe>
 

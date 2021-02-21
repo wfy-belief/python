@@ -21,6 +21,7 @@ c = (
     )
     .render("bar_xyaxis_name.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Bar/bar_xyaxis_name.html"></iframe>

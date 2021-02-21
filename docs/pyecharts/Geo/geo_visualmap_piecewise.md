@@ -19,6 +19,7 @@ c = (
     )
     .render("geo_visualmap_piecewise.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Geo/geo_visualmap_piecewise.html"></iframe>

@@ -267,6 +267,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="WordCloud-自定义文字样式"))
     .render("wordcloud_custom_font_style.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/WordCloud/wordcloud_custom_font_style.html"></iframe>

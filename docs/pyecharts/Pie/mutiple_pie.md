@@ -60,6 +60,7 @@ c = (
     )
     .render("mutiple_pie.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Pie/mutiple_pie.html"></iframe>

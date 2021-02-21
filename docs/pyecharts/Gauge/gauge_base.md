@@ -13,6 +13,7 @@ c = (
     .set_global_opts(title_opts=opts.TitleOpts(title="Gauge-基本示例"))
     .render("gauge_base.html")
 )
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Gauge/gauge_base.html"></iframe>

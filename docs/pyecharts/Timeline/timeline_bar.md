@@ -20,6 +20,7 @@ for i in range(2015, 2020):
     )
     tl.add(bar, "{}年".format(i))
 tl.render("timeline_bar.html")
+
 ```
 
 <iframe width="100%" height="800px" src="/pyecharts/Timeline/timeline_bar.html"></iframe>
